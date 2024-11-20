@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome and Edge Specific Styles</title>
+  <style>
+    /* General body background for other browsers */
+    body {
+      background-color: white;
+    }
+
+    /* Chrome-specific styles */
+    body.chrome {
+      background-color: green;
+    }
+
+    /* Edge-specific styles */
+    body.edge {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <p>This page has a green background in Chrome and a red background in Microsoft Edge.</p>
+
+  <script>
+    // Detect Chromium-based Edge
+    var isEdge = navigator.userAgent.indexOf("Edg") !== -1;
+
+    // Detect Chrome, but exclude Edge
+    var isChrome = navigator.userAgent.indexOf("Chrome") !== -1 && !isEdge;
+
+    // Apply the appropriate class to the body tag
+    if (isChrome) {
+      document.body.classList.add('chrome'); // Apply Chrome class
+    } else if (isEdge) {
+      document.body.classList.add('edge'); // Apply Edge class
+    }
+  </script>
+</body>
+</html>
