@@ -16,9 +16,8 @@ button.btn.btn-sm.btn-grey.fw-600.fs-10.me-1.mb-2.px-1 > img {
 .wrapper {
   text-align: center;
 }
-.alfa_font_family,
-.slider_purple_btn {
-  /* font-family: "Alfa Slab One", serif; */
+.alfa_font_family {
+  font-family: "Alfa Slab One", serif !important;
 }
 .btn-purple {
   width: 100%;
@@ -1402,8 +1401,8 @@ button.deposit_button.fs-10.fw-700.h-34.w-100.text-white
     font-size: 9px !important;
     border: 1px solid #000;
     text-transform: uppercase;
-    width: 70px !important;
-    height: 20px !important;
+    /* width: 70px !important;
+    height: 20px !important; */
   }
 
   .row.justify-content-center.flex-wrap.px-3.py-2.pad-0
@@ -1466,6 +1465,8 @@ button.deposit_button.gray.fs-14.fw-700.h-34.w-100.text-black {
 }
 
 }
+
+
 
 @media (min-width: 767px) and (max-width: 992px) {
   .tabmx-w-100 {
@@ -1732,13 +1733,13 @@ margin-bottom:70px !important ;
 }
 /* 4 pop-up Ends */
 
+button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
 
-@media(max-width:500px){
-  button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
-
-    border: 1px solid #f2ff0066;
+  border: 1px solid #f2ff0066;
 
 }
+@media(max-width:500px){
+
 
 a.btn.btn-sm.btn-theme-outline.rounded-pill.text-nowrap.fs-12.fw-500.px-3.py-1.me-2 {
   border-radius: 5px !important;
@@ -1851,16 +1852,18 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
 }
 
 
+
+
 @media(min-width:993px){
   .position-relative.br-10.br-yellow.mb-3 .mt-60 {
-    margin-top: 0px !important;
+    /* margin-top: 0px !important; */
 }
 .topcard-img.youthteam{
   /* display: none !important; */
 }
 
 .position-relative.br-10.br-yellow.mb-3{
-  margin-top: 0 !important;
+  /* margin-top: 0 !important; */
   border:none !important;
 }
 }
@@ -2108,6 +2111,8 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 
 
 
+
+
 @media(min-width:450px) and (max-width:500px){
   .position-relative.br-10.br-yellow.mb-3.mx-1.px-0.mt-120 {
     margin-top: 140px !important;
@@ -2201,12 +2206,25 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
   margin-top: 12% !important;
 }
 .bet-btn, button.btn.btn-sm.btn-grey.fw-600.fs-10.me-1.mb-2.px-1 > img {
-  margin-right: 0px;
+  margin-right: 6px;
 }
 
 .card-body.pt-5px.px-0.py-0.p-0 {
   padding: 0 !important;
 }
+
+.position-relative.br-10.br-yellow.mb-3 .mt-60 {
+  margin-top: 11% !important;
+}
+.topcard-img.youthteam.new_topinplay {
+  top: -17% !important;
+}
+
+button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder.w-100 {
+  width: 150px !important;
+  height: 40px !important;
+}
+
 }
 
 @media(min-width:1700px){
@@ -2221,6 +2239,13 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
   .lap-block.container-fluid.max-1400px {
     max-width: 1400px;
 }
+
+.topcard-img.youthteam div div.w-85.mobile-tab-none {
+  width: 70% !important;
+}
+.position-relative.br-10.br-yellow.mb-3 .mt-60 {
+  margin-top: 8% !important;
+}
 }
 
 @media(min-width:2200px){
@@ -2231,6 +2256,7 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
   .tab-pane.fade.show.active.purple_card.mt-65.mx-1.mt-100 {
     margin-top: 9% !important;
   }
+  
 }
 
 .topcard-img.youthteam.new_top{
@@ -2244,6 +2270,22 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
 .mt-new425.mt-11per {
   margin-top: 12%;
 }
+
+.offcanvas.offcanvas-bottom.table-popup-container.max-content {
+  height: max-content !important;
+  border-radius: 0 0 20px 20px !important;
+  margin-bottom: 0px;
+  overflow: hidden;
+  z-index: 9999999;
+  max-width: 375px !important;
+  /* right: 0 !important; */
+}
+
+
+#bluemain_popup {
+  position: fixed;
+  top: 50% !important;
+  right: 0 !important;}
 }
 
 @media(min-width:1221px) and (max-width:1400px){
@@ -2252,6 +2294,18 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
 }
 .mt-new425.mt-11per {
   margin-top: 10%;
+}
+.topcard-img.youthteam.new_topinplay {
+  top: -20% !important;
+}
+.position-relative.br-10.br-yellow.mb-3 .mt-60 {
+  margin-top: 10% !important;
+}
+.topcard-img.matchsumary{
+  top: -12% !important;
+}
+.position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab{
+  margin-top: 11% !important;
 }
 }
 
@@ -2262,6 +2316,18 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
 }
 .mt-new425.mt-11per {
   margin-top: 10%;
+}
+.topcard-img.youthteam.new_topinplay {
+  top: -22% !important;
+}
+.position-relative.br-10.br-yellow.mb-3 .mt-60 {
+  margin-top: 11% !important;
+}
+.topcard-img.matchsumary{
+  top: -13% !important;
+}
+.position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab{
+  margin-top: 10% !important;
 }
 }
 
@@ -2274,4 +2340,74 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
 .mt-new425.mt-11per {
   margin-top: 10%;
 }
+.topcard-img.youthteam.new_topinplay {
+  top: -22% !important;
+}
+.position-relative.br-10.br-yellow.mb-3 .mt-60.new_topbottom {
+  margin-top: 8% !important;
+}
+.topcard-img.matchsumary{
+  top: -13% !important;
+}
+.position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab{
+  margin-top: 10% !important;
+}
+
+
+}
+@media(min-width:1000px){
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content {
+    height: max-content !important;
+    border-radius: 0 0 20px 20px !important;
+    margin-bottom: 0px;
+    overflow: hidden;
+    z-index: 9999999;
+    max-width: 375px !important;
+    right: 0 !important;
+  }
+  
+  
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content.show{
+    position: fixed;
+    top: 50% !important;
+    right: 0 !important;
+    left: auto;}
+
+    .offcanvas.offcanvas-bottom{
+      left: auto !important;
+      transform: translateX(100%);
+    }
+
+
+    .table-headbet {
+      background: #fff;
+      margin: 0px 0 !important;
+      padding: 0 0px !important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .topcard-img.youthteam div div.w-85 {
+      width: 54% !important;
+  }
+
+  .topcard-img.matchsumary  div div.w-85 {
+    width: 54% !important;
+}
+}
+
+.card-body.pt-5px.px-0.py-0 {
+  padding: 0 !important;
+}
+
+
+@media(min-width:1700px){
+  .topcard-img.matchsumary div div.w-85 {
+    width: 64% !important;
+  }
+  
+  .position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab {
+    margin-top: 7% !important;
+  }
 }

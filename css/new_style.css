@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .h-10 {
   height: 60px;
 }
@@ -67,7 +68,7 @@
   margin-left: auto;
 }
 .d-b {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1 !important;
 }
 .purplebg_yellow_container swiper-container,
 .tab-pane swiper-container {
@@ -574,10 +575,14 @@ button#pills-home-tab.schedule.active {
   }
 
   a.btn.btn-sm.btn-theme-outline.rounded-pill.text-nowrap.fs-12.fw-500.px-3.py-1.me-2 {
-    padding: 0px 8px !important;
-    height: 34px !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
+    padding: 0px px !important;
+        height: 27px !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        display: flex
+;
+        align-items: center;
+        border-radius: 10px !important;
   }
   swiper-container.mySwiper.button-slider.lap-m-0 {
     margin: 0;
@@ -691,6 +696,37 @@ button#pills-home-tab.schedule.active {
     width: 75px !important;
     height: 75px !important;
   }
+
+  button.whatapp.icon {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    color: #000000;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 40px;
+    width: 50px;
+    position: fixed;
+    /* bottom: 33% !important; */
+    bottom: 24% !important;
+    /* right: 10px; */
+    z-index: 999;
+    /* opacity: 0; */
+    transform: translateY(100px);
+    /* transition: all 0.5s ease; */
+    position: fixed;
+    height: 50px;
+    display: flex !important
+;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    /* bottom: -80px; */
+    right: 30px  !important;
+    right: 23px  !important;
+}
 }
 
 /* deposite */
@@ -930,7 +966,6 @@ a.btn.sm-btn-yellow.d-flex.align-items-center.justify-content-center.rounded-pil
   }
 }
 
-.alfa_font_family,
 .slider_purple_btn {
   font-family: "inter", serif;
 }

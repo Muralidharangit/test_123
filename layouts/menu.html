@@ -10,6 +10,14 @@
     <style></style>
 
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+
+    <style>
+      button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder {
+    width: 150px !important;
+    height: 43px !important;
+}
+    </style>
   </head>
   <body>
     <div class="container container-xs home-bg vh-100 py-1 px-1">
@@ -464,7 +472,48 @@
         <div class="modal-content bg-transparent">
           <div class="modal-body px-4 py-0">
             <div class="position-relative">
-              <img src="../img/pop-up/pop-up-bg.png" alt="" class="w-100" />
+              <img src="../img/pop.png" alt="" class="w-100" />
+
+              <div class="position-absolute " style="position: absolute !important;
+              bottom: 0;
+              z-index: 999999;
+              position: absolute !important;
+              bottom: 21px;
+              z-index: 999999;
+              width: 390px;
+              /* margin: 0 auto; */
+              left: 20px;
+              height: 250px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 10px;
+          
+">
+                <div class="d-flex align-items-center justify-content-center flex-column" style="gap: 2px !important;width:310px !important">
+                  <a href="register.html" class="btn btn-login mb-1 w-100">Join Now</a>
+
+                  <div>
+                    <div class="row mt-4">
+                      <div class="col-lg-6">
+                       
+                            <a href="./login.html" class="text-decoration-none">
+                              <button class="btn rounded-pill  border-white bg-transparent text-white w-100 py-1 fs-14 fw-bolder" >
+                                Login
+                              </button>
+                            </a>
+
+                      </div>
+
+                      <div class="col-lg-6">
+                        <button class="btn rounded-pill  border-white bg-transparent text-white w-100 py-1 fs-14 fw-bolder w-100">
+                          Demo Login
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

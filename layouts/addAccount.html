@@ -83,6 +83,24 @@
       .accordion-collapse.position-absolute {
         left: 0;
       }
+
+      .green_whatsapp_button img {
+        width: 20px !important;
+      }
+      .green_whatsapp_button span {
+        padding: 0 !important;
+      }
+      @media (min-width: 768px) {
+        .green_whatsapp_button {
+          justify-content: center !important;
+        }
+        .green_whatsapp_button img {
+          width: 30px !important;
+        }
+        .green_whatsapp_button span {
+          margin-left: 10px !important;
+        }
+      }
     </style>
 
     <!-- new end -->
@@ -244,72 +262,157 @@
 
       <!---------withdraw page start-->
       <div
-        class="container container-xs position-relative p-0 mt-5  col-lg-10 col-xxl-10 pt-sm-0 mt-0 mt-sm-0 pt-5 mobile-margin-0 mobile-padding-0"
+        class="container container-xs position-relative p-0 mt-5 col-lg-10 col-xxl-10 pt-sm-0 mt-0 mt-sm-0 pt-5 mobile-margin-0 mobile-padding-0"
       >
-        <div class="">
-          <div class="row gx-1 withdraw-add-account-btns mobile-tab-none">
-            <div class="col-6 col-lg-6 col-md-6 px-2">
-              <a
-                href="withdrawal.html"
-                class="w-100 btn btn-sm btn-grey flex-grow-1 fw-600 fs-16 fst-italic me-1 mb-2 px-1 py-2 bg-border-whitee"
-                >Withdrawal</a
-              >
-            </div>
-            <div class="col-6 col-lg-6 col-md-6 px-2">
-              <a
-                href="addAccount.html"
-                class="w-100 btn btn-sm bg-yellow flex-grow-1 fw-600 fs-16 fst-italic me-1 mb-2 px-1 py-2"
-                >Add Account</a
-              >
-            </div>
-          </div>
-
-
-          <div class="d-flex px-1 m-0 gap-1 button-withdraw mb-2 lap-none gap-1rem">
+        <!-- Header of 3 button starts -->
+        <div
+          class="row justify-content-center w-100 mb-2 dep_btn deskmt-95 m-0 px-1 mobile-tab-none"
+        >
+          <div class="d-flex p-0 m-0 gap-3 button-deposite">
             <div class="flex-fill d-flex justify-content-center">
-              <a href="./withdrawal.html" class="w-100">
-              <button
-                class="deposit_button gray  fs-14 fw-700  br-g h-34 w-100 text-black"
-              >
-                Withdrawal
-              </button>
-            </a>
+              <a href="withdrawal.html" class="w-100">
+                <button
+                  class="deposit_button fs-14 fw-700 h-34 w-100 text-black"
+                >
+                  Withdrawal
+                </button>
+              </a>
             </div>
             <div class="flex-fill d-flex justify-content-center">
-              <a href="./addAccount.html" class="w-100">
-                <button class="deposit_button yellow fs-14 fw-700 h-34 w-100 text-black">
+              <a href="#" class="w-100">
+                <button
+                  class="deposit_button yellow fs-14 fw-700 br-g h-34 w-100 text-black"
+                >
                   Add Account
                 </button>
               </a>
             </div>
 
-            <div class="flex-fill d-flex justify-content-center align-items-center" >
-              
-              <a href="./depositeupi.html" class="w-100 text-white"> 
-                <button class="deposit_button fs-10 fw-700 h-34 w-100 text-white"  style="background: linear-gradient(90deg, #89D81A 0%, #21A90B 100%);
-">
-                  <div class="d-flex justify-content-around align-items-center fs-12">
-                    
+            <div
+              class="flex-fill d-flex justify-content-center align-items-center"
+            >
+              <a href="./depositeupi.html" class="w-100 text-white">
+                <button
+                  class="deposit_button fs-10 fw-700 h-34 w-100 text-white"
+                  style="
+                    background: linear-gradient(
+                      90deg,
+                      #89d81a 0%,
+                      #21a90b 100%
+                    );
+                  "
+                >
+                  <div
+                    class="d-flex justify-content-around align-items-center fs-12 green_whatsapp_button"
+                  >
                     <img
-                  src="../img/WhatsApp_icon (2).png"
-                  alt="whatapp_image"
-                  width="20px"
-                />
-                <span style="line-height: 14px;">
-                  WhatsApp Withdrawal</span>
+                      src="../img/WhatsApp_icon (2).png"
+                      alt="whatapp_image"
+                      width="20px"
+                    />
+                    <span style="line-height: 14px"> WhatsApp Deposit</span>
                   </div>
-              </button>
+                </button>
               </a>
             </div>
-      
+          </div>
+        </div>
+        <!-- Header of 3 button Ends -->
+        <div class="">
+          <div
+            class="d-flex px-1 m-0 gap-1 button-withdraw mb-2 lap-none gap-1rem"
+          >
+            <div class="flex-fill d-flex justify-content-center">
+              <a href="./withdrawal.html" class="w-100">
+                <button
+                  class="deposit_button gray fs-14 fw-700 br-g h-34 w-100 text-black"
+                >
+                  Withdrawal
+                </button>
+              </a>
+            </div>
+            <div class="flex-fill d-flex justify-content-center">
+              <a href="./addAccount.html" class="w-100">
+                <button
+                  class="deposit_button yellow fs-14 fw-700 h-34 w-100 text-black"
+                >
+                  Add Account
+                </button>
+              </a>
+            </div>
+
+            <div
+              class="flex-fill d-flex justify-content-center align-items-center"
+            >
+              <a href="./depositeupi.html" class="w-100 text-white">
+                <button
+                  class="deposit_button fs-10 fw-700 h-34 w-100 text-white"
+                  style="
+                    background: linear-gradient(
+                      90deg,
+                      #89d81a 0%,
+                      #21a90b 100%
+                    );
+                  "
+                >
+                  <div
+                    class="d-flex justify-content-around align-items-center fs-12"
+                  >
+                    <img
+                      src="../img/WhatsApp_icon (2).png"
+                      alt="whatapp_image"
+                      width="20px"
+                    />
+                    <span style="line-height: 14px"> WhatsApp Withdrawal</span>
+                  </div>
+                </button>
+              </a>
+            </div>
           </div>
           <div
-            class="text-white fw-600 mb-3 add-bant-lap  my-4 mb-4 px-2"
+            class="text-white fw-600 mb-3 add-bant-lap my-4 mb-4 px-2 text-center fs-"
           >
             Add Bank
           </div>
+
+          <!-- Starts -->
+
           <div class="bank-detail mb-3 mobile-tab-none">
             <div class="bank-detail__row">
+              <div class="bank-detail__label bank-detail-label-bank">
+                <span class="text-black fw-600">A/c Name</span>
+                <img src="../img/icon/icon-text-list.png" />
+              </div>
+              <div class="bank-detail__data bank-detail-data-bank">
+                <input type="text" value="Bandhan Bank" />
+              </div>
+            </div>
+
+            <!-- 2nd Starts -->
+            <div class="bank-detail__row">
+              <div class="bank-detail__label bank-detail-label-bank">
+                <span class="text-black fw-600">Bank Name</span>
+                <img src="../img/icon/icon-bank.png" />
+              </div>
+              <div class="bank-detail__data bank-detail-data-bank">
+                <!-- <input type="text" value="Axis Bank of india" /> -->
+                <select class="select-bank-detail">
+                  <option>Axis Bank Of India</option>
+                  <option>ICICI Band</option>
+                  <option>Fedal Bank</option>
+                </select>
+              </div>
+            </div>
+            <div class="bank-detail__row">
+              <div class="bank-detail__label bank-detail-label-bank">
+                <span class="text-black fw-600">A/c Holder Name</span>
+                <img src="../img/icon/icon-profile-circle.png" />
+              </div>
+              <div class="bank-detail__data bank-detail-data-bank">
+                <input type="text" value="Sikander" />
+              </div>
+            </div>
+            <!-- <div class="bank-detail__row">
               <div class="bank-detail__label bank-detail-label-bank">
                 <span class="text-black fw-600">Select Your Bank</span>
                 <img src="../img/icon/icon-bank.png" />
@@ -321,41 +424,9 @@
                   <option>Fedal Bank</option>
                 </select>
               </div>
-            </div>
-            <div class="ban-detail-other">
-              <div class="bank-detail__row">
-                <div class="bank-detail__label bank-detail-label-bank">
-                  <span class="text-black fw-600">Amount</span>
-                  <img src="../img/icon/icon-inr.svg" width="8" />
-                </div>
-                <div class="bank-detail__data bank-detail-data-bank">
-                  <input type="text" value="1,00,000" />
-                </div>
-              </div>
-              <div class="bank-detail__row">
-                <div class="bank-detail__label bank-detail-label-bank">
-                  <span class="text-black fw-600">Bank Name</span>
-                  <img src="../img/icon/icon-bank.png" />
-                </div>
-                <div class="bank-detail__data bank-detail-data-bank">
-                  <!-- <input type="text" value="Axis Bank of india" /> -->
-                  <select class="select-bank-detail">
-                    <option>Axis Bank Of India</option>
-                    <option>ICICI Band</option>
-                    <option>Fedal Bank</option>
-                  </select>
-                </div>
-              </div>
-              <div class="bank-detail__row">
-                <div class="bank-detail__label bank-detail-label-bank">
-                  <span class="text-black fw-600">A/c Holder Name</span>
-                  <img src="../img/icon/icon-profile-circle.png" />
-                </div>
-                <div class="bank-detail__data bank-detail-data-bank">
-                  <input type="text" value="Sikander" />
-                </div>
-              </div>
+            </div> -->
 
+            <div class="ban-detail-other">
               <div class="bank-detail__row">
                 <div class="bank-detail__label bank-detail-label-bank">
                   <span class="text-black fw-600">A/c No.</span>
@@ -376,6 +447,7 @@
               </div>
             </div>
           </div>
+
           <div class="bank-detail mb-3 lap-none">
             <div class="bank-detail__row">
               <div class="bank-detail__label">
@@ -422,104 +494,242 @@
           </div>
         </div>
 
-        <div class="d-flex justify-content-center mb-4">
-          <a href="#" class="btn bg-yellow rounded px-4 px-md-5 mt-3">
-            <span
-              class="fw-700 fst-italic add_account_btn"
-              data-bs-toggle="modal"
-              data-bs-target="#payment"
-              >Add Bank</span
-            >
+        <div class="d-flex justify-content-center mb-4 my-4">
+          <a
+            href="#"
+            class="btn bg-yellow rounded px-4 px-md-5 mt-3"
+            data-bs-toggle="modal"
+            data-bs-target="#payment"
+          >
+            <span class="fw-700 fst-italic add_account_btn">Add Bank</span>
           </a>
         </div>
 
-        <div class="text-white fw-600 mb-3 add-bant-lap px-2 mb-4">
+        <div
+          class="text-white fw-600 mb-3 add-bant-lap px-2 mb-4 text-center pt-2"
+        >
           Added Bank
         </div>
-        <div class="bank-detail mb-2">
-          <div class="bank-detail__row">
-            <div class="bank-detail__label">
-              <span class="text-black fw-600">Bank name 1</span>
-              <img src="../img/icon/icon-bank.png" />
+
+        <!-- 2nd Section Card Starts -->
+
+        <div>
+          <div class="bank-detail mb-3 mobile-tab-none">
+            <div class="bank-detail__row">
+              <div class="bank-detail__label bank-detail-label-bank">
+                <span class="text-black fw-600">A/c Name</span>
+                <img src="../img/icon/icon-text-list.png" />
+              </div>
+              <div class="bank-detail__data bank-detail-data-bank">
+                <input type="text" value="Bandhan Bank" />
+              </div>
             </div>
-            <div class="bank-detail__data">
-              <select class="select-bank-detail text-black">
-                <option>Axis Bank Of India</option>
-                <option>ICICI Band</option>
-                <option>Fedal Bank</option>
-              </select>
+
+            <!-- 2nd Starts -->
+            <div class="bank-detail__row">
+              <div class="bank-detail__label bank-detail-label-bank">
+                <span class="text-black fw-600">Bank Name</span>
+                <img src="../img/icon/icon-bank.png" />
+              </div>
+              <div class="bank-detail__data bank-detail-data-bank">
+                <!-- <input type="text" value="Axis Bank of india" /> -->
+                <select class="select-bank-detail">
+                  <option>Axis Bank Of India</option>
+                  <option>ICICI Band</option>
+                  <option>Fedal Bank</option>
+                </select>
+              </div>
+            </div>
+            <div class="bank-detail__row">
+              <div class="bank-detail__label bank-detail-label-bank">
+                <span class="text-black fw-600">A/c Holder Name</span>
+                <img src="../img/icon/icon-profile-circle.png" />
+              </div>
+              <div class="bank-detail__data bank-detail-data-bank">
+                <input type="text" value="Sikander" />
+              </div>
+            </div>
+            <!-- <div class="bank-detail__row">
+              <div class="bank-detail__label bank-detail-label-bank">
+                <span class="text-black fw-600">Select Your Bank</span>
+                <img src="../img/icon/icon-bank.png" />
+              </div>
+              <div class="bank-detail__data bank-detail-data-bank">
+                <select class="select-bank-detail">
+                  <option>Axis Bank Of India</option>
+                  <option>ICICI Band</option>
+                  <option>Fedal Bank</option>
+                </select>
+              </div>
+            </div> -->
+
+            <div class="ban-detail-other">
+              <div class="bank-detail__row">
+                <div class="bank-detail__label bank-detail-label-bank">
+                  <span class="text-black fw-600">A/c No.</span>
+                  <img src="../img/icon/icon-text-list.png" />
+                </div>
+                <div class="bank-detail__data bank-detail-data-bank">
+                  <input type="text" value="987654321" />
+                </div>
+              </div>
+              <div class="bank-detail__row">
+                <div class="bank-detail__label bank-detail-label-bank">
+                  <span class="text-black fw-600">IFSC Code</span>
+                  <img src="../img/icon/icon-text-list.png" />
+                </div>
+                <div class="bank-detail__data bank-detail-data-bank">
+                  <input type="text" value="75896412536547" />
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-end">
+                <button
+                  class="btn-text fw-500 fst-italic fs-13 ms-3 text-blue"
+                  data-bs-toggle="modal"
+                  data-bs-target="#deletepop"
+                >
+                  Delete
+                </button>
+              </div>
             </div>
           </div>
 
-          <div class="d-flex justify-content-end">
-            <button class="btn-text fw-500 fst-italic fs-10 text-blue">
-              Edit
-            </button>
-            <button
-              class="btn-text fw-500 fst-italic fs-10 ms-3 text-blue"
-              data-bs-toggle="modal"
-              data-bs-target="#deletepop"
-            >
-              Delete
-            </button>
+          <div class="bank-detail mb-3 lap-none">
+            <div class="bank-detail__row">
+              <div class="bank-detail__label">
+                <span class="text-black fw-600">Bank name 1</span>
+                <img src="../img/icon/icon-bank.png" />
+              </div>
+              <div class="bank-detail__data">
+                <select class="select-bank-detail text-black">
+                  <option>Axis Bank Of India</option>
+                  <option>ICICI Band</option>
+                  <option>Fedal Bank</option>
+                </select>
+              </div>
+            </div>
+            <div class="ban-detail-other">
+              <div class="bank-detail__row">
+                <div class="bank-detail__label">
+                  <span class="text-black fw-600">A/C Holder Name</span>
+                  <img src="../img/icon/icon-profile-circle.png" />
+                </div>
+                <div class="bank-detail__data">
+                  <input type="text" value="Sikander" />
+                </div>
+              </div>
+              <div class="bank-detail__row">
+                <div class="bank-detail__label">
+                  <span class="text-black fw-600">A/C No.</span>
+                  <img src="../img/icon/icon-text-list.png" />
+                </div>
+                <div class="bank-detail__data">
+                  <input type="text" value="987654321" />
+                </div>
+              </div>
+              <div class="bank-detail__row">
+                <div class="bank-detail__label">
+                  <span class="text-black fw-600">IFSC</span>
+                  <img src="../img/icon/icon-text-list.png" />
+                </div>
+                <div class="bank-detail__data">
+                  <input type="text" value="75896412536547" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="bank-detail mb-2">
-          <div class="bank-detail__row">
-            <div class="bank-detail__label">
-              <span class="text-black fw-600">Bank name 1</span>
-              <img src="../img/icon/icon-bank.png" />
-            </div>
-            <div class="bank-detail__data">
-              <select class="select-bank-detail text-black">
-                <option>Axis Bank Of India</option>
-                <option>ICICI Band</option>
-                <option>Fedal Bank</option>
-              </select>
-            </div>
-          </div>
+        </div>
+        <!-- 2nd Section Card Ends -->
 
-          <div class="d-flex justify-content-end">
-            <button class="btn-text fw-500 fst-italic fs-10 text-blue">
-              Edit
-            </button>
-            <button
-              class="btn-text fw-500 fst-italic fs-10 ms-3 text-blue"
-              data-bs-toggle="modal"
-              data-bs-target="#deletepop"
-            >
-              Delete
-            </button>
-          </div>
-        </div>
-        <div class="bank-detail mb-3">
-          <div class="bank-detail__row">
-            <div class="bank-detail__label">
-              <span class="text-black fw-600">Bank name 1</span>
-              <img src="../img/icon/icon-bank.png" />
+        <div class="lap-none">
+          <div class="bank-detail mb-2">
+            <div class="bank-detail__row">
+              <div class="bank-detail__label">
+                <span class="text-black fw-600">Bank name 1</span>
+                <img src="../img/icon/icon-bank.png" />
+              </div>
+              <div class="bank-detail__data">
+                <select class="select-bank-detail text-black">
+                  <option>Axis Bank Of India</option>
+                  <option>ICICI Band</option>
+                  <option>Fedal Bank</option>
+                </select>
+              </div>
             </div>
-            <div class="bank-detail__data">
-              <select class="select-bank-detail text-black">
-                <option>Axis Bank Of India</option>
-                <option>ICICI Band</option>
-                <option>Fedal Bank</option>
-              </select>
-            </div>
-          </div>
 
-          <div class="d-flex justify-content-end">
-            <button class="btn-text fw-500 fst-italic fs-10 text-blue">
-              Edit
-            </button>
-            <button
-              class="btn-text fw-500 fst-italic fs-10 ms-3 text-blue"
-              data-bs-toggle="modal"
-              data-bs-target="#deletepop"
-            >
-              Delete
-            </button>
+            <div class="d-flex justify-content-end">
+              <button class="btn-text fw-500 fst-italic fs-10 text-blue">
+                Edit
+              </button>
+              <button
+                class="btn-text fw-500 fst-italic fs-10 ms-3 text-blue"
+                data-bs-toggle="modal"
+                data-bs-target="#deletepop"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+          <div class="bank-detail mb-2">
+            <div class="bank-detail__row">
+              <div class="bank-detail__label">
+                <span class="text-black fw-600">Bank name 1</span>
+                <img src="../img/icon/icon-bank.png" />
+              </div>
+              <div class="bank-detail__data">
+                <select class="select-bank-detail text-black">
+                  <option>Axis Bank Of India</option>
+                  <option>ICICI Band</option>
+                  <option>Fedal Bank</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-end">
+              <button class="btn-text fw-500 fst-italic fs-10 text-blue">
+                Edit
+              </button>
+              <button
+                class="btn-text fw-500 fst-italic fs-10 ms-3 text-blue"
+                data-bs-toggle="modal"
+                data-bs-target="#deletepop"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+          <div class="bank-detail mb-3">
+            <div class="bank-detail__row">
+              <div class="bank-detail__label">
+                <span class="text-black fw-600">Bank name 1</span>
+                <img src="../img/icon/icon-bank.png" />
+              </div>
+              <div class="bank-detail__data">
+                <select class="select-bank-detail text-black">
+                  <option>Axis Bank Of India</option>
+                  <option>ICICI Band</option>
+                  <option>Fedal Bank</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-end">
+              <button class="btn-text fw-500 fst-italic fs-10 text-blue">
+                Edit
+              </button>
+              <button
+                class="btn-text fw-500 fst-italic fs-10 ms-3 text-blue"
+                data-bs-toggle="modal"
+                data-bs-target="#deletepop"
+              >
+                Delete
+              </button>
+            </div>
           </div>
         </div>
+
         <div class="bank-detail mb-3 lap-none">
           <div class="bank-detail__row">
             <div class="bank-detail__label">
@@ -754,7 +964,7 @@
     </div>
 
     <!-- scroll button -->
-    <div class="d-flex justify-content-end ">
+    <div class="d-flex justify-content-end">
       <!-- <button><i class="fa-solid fa-angle-up"></i></button> -->
       <button class="scrollToTopBtn">
         <i class="fa-solid fa-angle-up"></i>
@@ -762,13 +972,20 @@
     </div>
     <!-- scroll button end-->
 
-      <!-- whatapp icon mobile -->
-  <div class="d-flex justify-content-end lap-none">
-    <!-- <button><i class="fa-solid fa-angle-up"></i></button> -->
-    <button class=" whatapp icon"><img src="../img/Laptop/whatsapp 1.png"  class="" alt="" srcset="" width="30"></button>
-
- </div>
-  <!-- whatapp icon mobile -->
+    <!-- whatapp icon mobile -->
+    <div class="d-flex justify-content-end ">
+      <!-- <button><i class="fa-solid fa-angle-up"></i></button> -->
+      <button class="whatapp icon">
+        <img
+          src="../img/Laptop/whatsapp 1.png"
+          class=""
+          alt=""
+          srcset=""
+          width="30"
+        />
+      </button>
+    </div>
+    <!-- whatapp icon mobile -->
 
     <!-- setting end -->
 
