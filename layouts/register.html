@@ -16,9 +16,11 @@
       .register-bg.bg_image_both_L_M {
         background-image: url(../img/register-bg.png);
       }
+
       .register-bg.bg_image_both_L_M .center_image-width {
         width: 35%;
       }
+
       @media (min-width: 700px) {
         .register-bg.bg_image_both_L_M {
           background-image: url(../img/Laptop/login/Register\ Page.png);
@@ -26,18 +28,84 @@
           background-size: cover;
           background-position: center;
         }
+
         .register-bg.bg_image_both_L_M .center_image-width {
           width: 40%;
         }
+
         .register-bg.bg_image_both_L_M .login-form-control {
           height: 55px;
         }
       }
+
+      /*----new----*/
+      .input-container {
+        position: relative;
+        width: 100%;
+        /* max-width: 450px; */
+        margin: 0 auto;
+      }
+
+      .input-label {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        font-size: 16px;
+        font-weight: bold;
+        color: #4d0d4a;
+        pointer-events: none;
+      }
+
+      .styled-input {
+        width: 100%;
+        padding: 15px 10px 15px 100px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        background-color: #fff;
+        color: #666;
+      }
+
+      .styled-input:focus {
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+      }
+
+      .multiple_exhange_img_sec {
+        padding-top: 125px;
+      }
+
+      @media (max-width: 992px) {
+        .multiple_exhange_img_sec {
+          padding-top: 75px;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        .styled-input {
+          width: 100%;
+          padding: 9px 10px 9px 100px;
+          margin-bottom: 8px;
+        }
+
+        .input-label {
+          position: absolute;
+          top: 44%;
+        }
+      }
+
+      /*-----------*/
     </style>
   </head>
+
   <body>
     <div class="container container-xs vh-100 register-bg bg_image_both_L_M">
-      <nav class="navbar navbar-expand-lg bg-purple br-yellow fixed-top mobile-tab-none">
+      <nav
+        class="navbar navbar-expand-lg bg-purple br-yellow fixed-top mobile-tab-none"
+      >
         <div class="container col-md-12">
           <img src="../img/play-X-logonew.png" alt="logo" class="w-11" />
           <button
@@ -67,9 +135,7 @@
                 <a class="nav-link text-white" href="#">In-play</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#"
-                  >Teenpatti</a
-                >
+                <a class="nav-link text-white" href="#">Teenpatti</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Casino</a>
@@ -137,8 +203,7 @@
       <div class="row justify-content-center">
         <div class="col-sm-9 col-md-5 col-lg-5 col-xl-4 px-0">
           <div
-            class="d-flex flex-column justify-content-between vh-100"
-            style="padding-top: 125px"
+            class="d-flex flex-column justify-content-between vh-100 multiple_exhange_img_sec"
           >
             <div class="d-flex justify-content-center w-100 mt-2">
               <img
@@ -150,11 +215,16 @@
             <div class="px-3">
               <div class="login-title text-center mb-md-1">Register</div>
               <div class="mb-2 mb-md-3">
-                <input
-                  type="text"
-                  class="form-control login-form-control"
-                  placeholder="Enter Your Mobile Number"
-                />
+                <div class="input-container ">
+                  <label class="input-label" for="username">17024skx</label>
+                  <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter Your Username"
+                    class="styled-input"
+                  />
+                </div>
+                <!-- <input type="text" class="form-control login-form-control" placeholder="Enter Your Username" /> -->
                 <!-- <div class="fs-12 fw-500 text-white ps-2 mt-1">
                   You will receive an otp for verification
                 </div> -->
@@ -163,7 +233,7 @@
                 <input
                   type="text"
                   class="form-control login-form-control"
-                  placeholder="Enter Your Mobile Number"
+                  placeholder="Enter Your Password"
                 />
                 <!-- <div class="fs-12 fw-500 text-white ps-2 mt-1">
                   You will receive an otp for verification
@@ -173,15 +243,21 @@
                 <input
                   type="text"
                   class="form-control login-form-control"
-                  placeholder="Inter Invite Code"
+                  placeholder="Enter Your Mobile Number"
                 />
-                <div class="ps-2 mt-2">
+                <div class="mt-1 ps-2">
+                  <p class="text-white fs-12 mb-2">
+                    You Will Receive An Otp For Verification
+                  </p>
+                </div>
+                <div class="ps-2">
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
                       value=""
                       id="flexCheckDefault"
+                      style="position: relative;top: 2px;"
                     />
                     <label
                       class="form-check-label fs-12 fw-500 text-white"
@@ -193,8 +269,8 @@
               </div>
             </div>
             <div class="d-flex flex-column align-items-center W-100">
-              <a href="otp.html" class="btn btn-login mb-3">Next</a>
-              <div class="fs-12 mb-4">
+              <a href="otp.html" class="btn btn-login mb-2">Next</a>
+              <div class="fs-12 mb-2">
                 <span class="text-white"
                   ><a
                     href="./login.html"

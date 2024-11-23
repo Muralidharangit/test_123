@@ -97,13 +97,13 @@ body {
 .btn-login {
   font-weight: 900;
   font-style: italic;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 40px;
-  width: 193px;
+  width: 80% !important;
   height: 54px;
   background-color: #f2ff00;
   color: #a036e8;
-  text-transform: capitalize;
+  text-transform: uppercase;
   border-radius: 40px;
   box-shadow: 0 5px 4px 0 #00000080;
 }

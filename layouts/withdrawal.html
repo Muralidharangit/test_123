@@ -86,6 +86,27 @@
         /* gap: 10px; */
         margin: 0 4px;
       }
+
+      .green_whatsapp_button img {
+        width: 20px !important;
+      }
+      .green_whatsapp_button span {
+        padding: 0 !important;
+      }
+      @media (min-width: 768px) {
+        .green_whatsapp_button {
+          justify-content: center !important;
+        }
+        .green_whatsapp_button img {
+          width: 30px !important;
+        }
+        .green_whatsapp_button span {
+          margin-left: 10px !important;
+        }
+      }
+      .card-detail {
+        background-position: center;
+      }
     </style>
 
     <!-- new end -->
@@ -247,144 +268,242 @@
 
       <!---------withdraw page start-->
       <div
-        class="container container-xs position-relative p-0 mt-5  col-lg-10 col-xxl-10 pt-sm-0 mt-0 mt-sm-0 pt-5 mobile-margin-0 mobile-padding-0"
+        class="container container-xs position-relative p-0 mt-5 col-lg-10 col-xxl-10 pt-sm-0 mt-0 mt-sm-0 pt-5 mobile-margin-0 mobile-padding-0"
       >
-        <div class="">
-          <div class="row gx-1 withdraw-add-account-btns mobile-tab-none">
-            <div class="col-6 col-lg-6 col-md-6 col-sm-4 px-2">
-              <!-- <a
-                href="withdrawal.html"
-                class="w-100 btn btn-sm bg-yellow flex-grow-1 fw-600 fs-10 fs-17 fst-italic me-1 mb-2 px-1 py-2"
-                >Withdrawal</a
-              > -->
-              <a href="withdrawal.html" class="w-100 btn btn-sm bg-yellow flex-grow-1 fw-600 fs-16 fst-italic me-1 mb-2 px-1 py-2">Withdrawal</a>
-            </div>
-            <div class="col-6 col-lg-6 col-md-6 col-sm-4 px-2">
-              <a
-                href="addAccount.html"
-                class="w-100 btn btn-sm btn-grey flex-grow-1 fw-600 fs-17 fst-italic me-1 mb-2 px-1 py-2 bg-border-whitee"
-                >Add Account</a
-              >
-            </div>
-           
-          </div>
+        <!-- Header of 3 button starts -->
 
-          <div class="d-flex px-1 m-0 gap-1 button-withdraw mb-2 lap-none gap-1rem">
-            <div class="flex-fill d-flex justify-content-center">
-              <a href="./deposite.html" class="w-100">
+        <div
+          class="d-flex px-1 m-0 gap-1 button-withdraw mb-2 lap-none gap-1rem"
+        >
+          <div class="flex-fill d-flex justify-content-center">
+            <a href="./withdrawal.html" class="w-100">
               <button
-                class="deposit_button yellow fs-14 fw-700  br-g h-34 w-100 text-black"
+                class="deposit_button gray fs-14 fw-700 br-g h-34 w-100 text-black"
               >
                 Withdrawal
               </button>
             </a>
+          </div>
+          <div class="flex-fill d-flex justify-content-center">
+            <a href="./addAccount.html" class="w-100">
+              <button
+                class="deposit_button yellow fs-14 fw-700 h-34 w-100 text-black"
+              >
+                Add Account
+              </button>
+            </a>
+          </div>
+
+          <div
+            class="flex-fill d-flex justify-content-center align-items-center"
+          >
+            <a href="./depositeupi.html" class="w-100 text-white">
+              <button
+                class="deposit_button fs-10 fw-700 h-34 w-100 text-white"
+                style="
+                  background: linear-gradient(90deg, #89d81a 0%, #21a90b 100%);
+                "
+              >
+                <div
+                  class="d-flex justify-content-around align-items-center fs-12"
+                >
+                  <img
+                    src="../img/WhatsApp_icon (2).png"
+                    alt="whatapp_image"
+                    width="20px"
+                  />
+                  <span style="line-height: 14px"> WhatsApp Withdrawal</span>
+                </div>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center w-100 mb-2 dep_btn deskmt-95 m-0 px-1 mobile-tab-none"
+        >
+          <div class="d-flex p-0 m-0 gap-3 button-deposite">
+            <div class="flex-fill d-flex justify-content-center">
+              <a href="#" class="w-100">
+                <button
+                  class="deposit_button yellow fs-14 fw-700 h-34 w-100 text-black"
+                >
+                  Withdrawal
+                </button>
+              </a>
             </div>
             <div class="flex-fill d-flex justify-content-center">
-              <a href="./addAccount.html" class="w-100">
-                <button class="deposit_button gray fs-14 fw-700 h-34 w-100 text-black">
+              <a href="addAccount.html" class="w-100">
+                <button
+                  class="deposit_button fs-14 fw-700 br-g h-34 w-100 text-black"
+                >
                   Add Account
                 </button>
               </a>
             </div>
 
-            <div class="flex-fill d-flex justify-content-center align-items-center" >
-              
-              <a href="./depositeupi.html" class="w-100 text-white"> 
-                <button class="deposit_button fs-10 fw-700 h-34 w-100 text-white"  style="background: linear-gradient(90deg, #89D81A 0%, #21A90B 100%);
-">
-                  <div class="d-flex justify-content-around align-items-center fs-12">
-                    
+            <div
+              class="flex-fill d-flex justify-content-center align-items-center"
+            >
+              <a href="./depositeupi.html" class="w-100 text-white">
+                <button
+                  class="deposit_button fs-10 fw-700 h-34 w-100 text-white"
+                  style="
+                    background: linear-gradient(
+                      90deg,
+                      #89d81a 0%,
+                      #21a90b 100%
+                    );
+                  "
+                >
+                  <div
+                    class="d-flex justify-content-around align-items-center fs-12 green_whatsapp_button"
+                  >
                     <img
-                  src="../img/WhatsApp_icon (2).png"
-                  alt="whatapp_image"
-                  width="20px"
-                />
-                <span style="line-height: 14px;">
-                  WhatsApp Withdrawal</span>
+                      src="../img/WhatsApp_icon (2).png"
+                      alt="whatapp_image"
+                      width="20px"
+                    />
+                    <span style="line-height: 14px"> WhatsApp Deposit</span>
                   </div>
-              </button>
+                </button>
               </a>
             </div>
-      
           </div>
+        </div>
+        <!-- Header of 3 button Ends -->
 
-        
-         <div class="row justify-content-center w-100 mb-2 dep_btn deskmt-95 m-0">
-          <div class="d-flex w-100 px-1 mb-3 lap-none">
-            <div class="card-detail d-flex flex-column">
-              <div class="row gx-1">
-                <div class="col">
+        <div class="">
+          <!-- <div
+            class="d-flex px-1 m-0 gap-1 button-withdraw mb-2 lap-none gap-1rem"
+          >
+            <div class="flex-fill d-flex justify-content-center">
+              <a href="./deposite.html" class="w-100">
+                <button
+                  class="deposit_button yellow fs-14 fw-700 br-g h-34 w-100 text-black"
+                >
+                  Withdrawal
+                </button>
+              </a>
+            </div>
+            <div class="flex-fill d-flex justify-content-center">
+              <a href="./addAccount.html" class="w-100">
+                <button
+                  class="deposit_button gray fs-14 fw-700 h-34 w-100 text-black"
+                >
+                  Add Account
+                </button>
+              </a>
+            </div>
+
+            <div
+              class="flex-fill d-flex justify-content-center align-items-center"
+            >
+              <a href="./depositeupi.html" class="w-100 text-white">
+                <button
+                  class="deposit_button fs-10 fw-700 h-34 w-100 text-white"
+                  style="
+                    background: linear-gradient(
+                      90deg,
+                      #89d81a 0%,
+                      #21a90b 100%
+                    );
+                  "
+                >
                   <div
-                    class="d-flex flex-column align-items-center justify-content-center"
+                    class="d-flex justify-content-around align-items-center fs-12"
                   >
                     <img
-                      src="../img/avatar.png"
-                      width="50"
-                      class="rounded-circle mb-1"
+                      src="../img/WhatsApp_icon (2).png"
+                      alt="whatapp_image"
+                      width="20px"
                     />
-                    <span class="fs-12 fw-500 mb-1">King@X</span>
+                    <span style="line-height: 14px"> WhatsApp Withdrawal</span>
                   </div>
-                </div>
-                <div class="col">
-                  <div
-                    class="d-flex flex-column align-items-center justify-content-center"
-                  >
-                    <!-- <div class="d-flex justify-content-center align-items-center">
+                </button>
+              </a>
+            </div>
+          </div> -->
+
+          <div class="row justify-content-center w-100 mb-2 dep_btn m-0">
+            <div class="d-flex w-100 px-1 mb-3 lap-none">
+              <div class="card-detail d-flex flex-column">
+                <div class="row gx-1">
+                  <div class="col">
+                    <div
+                      class="d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <img
+                        src="../img/avatar.png"
+                        width="50"
+                        class="rounded-circle mb-1"
+                      />
+                      <span class="fs-12 fw-500 mb-1">King@X</span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <!-- <div class="d-flex justify-content-center align-items-center">
                                       <div class="fw-600 fs-24 me-2">69</div>
                                       <img src="../img/icon/icon-star-award.png" width="24" />
                                   </div> -->
-                    <!-- <div class="fs-10 ms-3 fw-500">Global Ranking</div> -->
+                      <!-- <div class="fs-10 ms-3 fw-500">Global Ranking</div> -->
+                    </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="d-flex align-items-center justify-content-center">
+                  <div class="col">
                     <div
-                      class="d-flex align-items-start justify-content-center mt-2"
+                      class="d-flex align-items-center justify-content-center"
                     >
-                      <img src="../img/icon/icon-golde.png" class="mt-1" />
                       <div
-                        class="d-flex flex-column align-items-center justify-content-center ms-2 fw-600"
+                        class="d-flex align-items-start justify-content-center mt-2"
                       >
-                        <div class="fs-15">Gold club</div>
-                        <div class="fs-10">Player</div>
-                        <div class="text-blue fs-5">View Club T&amp;C</div>
+                        <img src="../img/icon/icon-golde.png" class="mt-1" />
+                        <div
+                          class="d-flex flex-column align-items-center justify-content-center ms-2 fw-600"
+                        >
+                          <div class="fs-15">Gold club</div>
+                          <div class="fs-10">Player</div>
+                          <div class="text-blue fs-5">View Club T&amp;C</div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row gx-1">
-                <div class="col">
-                  <div
-                    class="d-flex flex-column align-items-center bg-dark-pink py-1 px-2 rounded-1 bg-vio-part"
-                  >
-                    <div class="d-flex align-items-center">
-                      <span class="text-white me-2 fw-700">1,00,000</span>
+                <div class="row gx-1">
+                  <div class="col">
+                    <div
+                      class="d-flex flex-column align-items-center bg-dark-pink py-1 px-2 rounded-1 bg-vio-part"
+                    >
+                      <div class="d-flex align-items-center">
+                        <span class="text-white me-2 fw-700">1,00,000</span>
+                      </div>
+                      <div class="fs-10 fw-600 text-white">
+                        Available Balance
+                      </div>
                     </div>
-                    <div class="fs-10 fw-600 text-white">Available Balance</div>
                   </div>
-                </div>
-                <div class="col">
-                  <div
-                    class="d-flex flex-column align-items-center bg-grey py-1 px-2 rounded-1 bg-vio-part"
-                  >
-                    <div class="text-white me-2 fw-700">4,400</div>
-                    <div class="fs-10 fw-600 text-white">Available Bonus</div>
+                  <div class="col">
+                    <div
+                      class="d-flex flex-column align-items-center bg-grey py-1 px-2 rounded-1 bg-vio-part"
+                    >
+                      <div class="text-white me-2 fw-700">4,400</div>
+                      <div class="fs-10 fw-600 text-white">Available Bonus</div>
+                    </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div
-                    class="d-flex flex-column align-items-center bg-grey py-1 px-2 rounded-1 bg-vio-part"
-                  >
-                    <div class="text-white me-2 fw-700">6,000</div>
-                    <div class="fs-10 fw-600 text-white">Total Bonus</div>
+                  <div class="col">
+                    <div
+                      class="d-flex flex-column align-items-center bg-grey py-1 px-2 rounded-1 bg-vio-part"
+                    >
+                      <div class="text-white me-2 fw-700">6,000</div>
+                      <div class="fs-10 fw-600 text-white">Total Bonus</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-         </div>
-          
+
           <!---------laptop---->
           <div class="d-flex px-1 mb-3 mobile-tab-none lap-profile mt-2">
             <div class="card-detail d-flex flex-column">
@@ -414,8 +533,14 @@
                         href="./pointpage2.html"
                         class="card-tile justify-content-center withdraw"
                       >
-                        <div class="fw-700 fs-12 text-white mb-1 fs-12">0</div>
-                        <div class="text-white-75 fs-10">Available Balance</div>
+                        <div
+                          class="fw-700 fs-12 text-white mb-1 fs-12 text-yellow"
+                        >
+                          0
+                        </div>
+                        <div class="text-white-75 fs-10 text-white">
+                          Available Balance
+                        </div>
                       </a>
                     </div>
                     <div class="col d-flex justify-content-center col-flex0">
@@ -423,8 +548,12 @@
                         href="./pointpage3.html"
                         class="card-tile justify-content-center withdraw"
                       >
-                        <div class="fw-700 fs-12 text-white mb-1 fs-12">0</div>
-                        <div class="text-white-75 fs-10">Bonus</div>
+                        <div
+                          class="fw-700 fs-12 text-white mb-1 fs-12 text-yellow"
+                        >
+                          0
+                        </div>
+                        <div class="text-white-75 fs-10 text-white">Bonus</div>
                       </a>
                     </div>
                     <div class="col d-flex justify-content-start col-flex0">
@@ -432,8 +561,14 @@
                         href="./mybetsports.html"
                         class="card-tile justify-content-center withdraw"
                       >
-                        <div class="fw-700 fs-12 text-white mb-1 fs-12">0</div>
-                        <div class="text-white-75 fs-10">Exposure</div>
+                        <div
+                          class="fw-700 fs-12 text-white mb-1 fs-12 text-yellow"
+                        >
+                          0
+                        </div>
+                        <div class="text-white-75 fs-10 text-white">
+                          Exposure
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -485,42 +620,6 @@
                   class="fw-600"
                   style="font-size: 14px"
                 />
-              </div>
-            </div>
-            <div class="bank-detail__row">
-              <div class="bank-detail__label">
-                <span class="text-black fw-600">Bank name</span>
-                <img src="../img/icon/icon-bank.png" />
-              </div>
-              <div class="bank-detail__data" style="font-size: 14px">
-                <select class="text-black fw-600">
-                  <option>Axis Bank Of India</option>
-                  <option>Bank Of India</option>
-                  <option>HDFC</option>
-                </select>
-              </div>
-            </div>
-            <div class="bank-detail__row">
-              <div class="bank-detail__label">
-                <span class="text-black fw-600">A/C Holder Name</span>
-                <img src="../img/icon/icon-profile-circle.png" />
-              </div>
-              <div class="bank-detail__data text-black fw-600">Sikander</div>
-            </div>
-            <div class="bank-detail__row">
-              <div class="bank-detail__label">
-                <span class="text-black fw-600">A/C No.</span>
-                <img src="../img/icon/icon-text-list.png" />
-              </div>
-              <div class="bank-detail__data text-black fw-600">987654321</div>
-            </div>
-            <div class="bank-detail__row">
-              <div class="bank-detail__label">
-                <span class="text-black fw-600">IFSC</span>
-                <img src="../img/icon/icon-text-list.png" />
-              </div>
-              <div class="bank-detail__data text-black fw-600">
-                75896412536547
               </div>
             </div>
 
@@ -710,14 +809,20 @@
     </div>
     <!-- scroll button end-->
 
-      <!-- whatapp icon mobile -->
-  <div class="d-flex justify-content-end lap-none">
-    <!-- <button><i class="fa-solid fa-angle-up"></i></button> -->
-    <button class=" whatapp icon"><img src="../img/Laptop/whatsapp 1.png"  class="" alt="" srcset="" width="30"></button>
-
- </div>
-  <!-- whatapp icon mobile -->
-
+    <!-- whatapp icon mobile -->
+    <div class="d-flex justify-content-end ">
+      <!-- <button><i class="fa-solid fa-angle-up"></i></button> -->
+      <button class="whatapp icon">
+        <img
+          src="../img/Laptop/whatsapp 1.png"
+          class=""
+          alt=""
+          srcset=""
+          width="30"
+        />
+      </button>
+    </div>
+    <!-- whatapp icon mobile -->
 
     <div class="modal fade" id="payment" tabindex="-1" aria-hidden="true">
       <div
@@ -726,8 +831,8 @@
         <div class="modal-content" style="width: 200px">
           <div class="modal-body d-flex flex-column align-items-center">
             <img src="../img/success.png" class="mb-2 ml-n25" />
-            <div class="fw-600 fs-11 text-center text-black mb-3">
-              Succesfully Done
+            <div class="fw-800 fs-12 text-center text-black mb-3">
+              Your Request <br />Is In Our Queue!
             </div>
             <span
               class="bg-green2 text-white fs-12 fw-600 rounded-3 py-2 px-3 mb-2"
