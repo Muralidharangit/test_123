@@ -8111,41 +8111,31 @@ $(document).ready(function () {
   });
 });
 
-
-// Text box script
-document.addEventListener("click", function (event) {
-  // Check if the clicked element has the specific class combination
-  if (event.target.classList.contains("col-6") &&
-      event.target.classList.contains("bg-gray") &&
-      event.target.classList.contains("fs-12") &&
-      event.target.classList.contains("fw-700") &&
-      event.target.classList.contains("d-flex") &&
-      event.target.classList.contains("justify-content-center") &&
-      event.target.classList.contains("align-items-center")) {
-    switchToInput(event.target);
-  }
+$(document).on("click", ".col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center", function () {
+  switchToInput($(this));
 });
 
-function switchToInput(div) {
-  const currentText = div.innerText;
+function switchToInput($div) {
+  const currentText = $div.text();
 
   // Replace div content with an input element
-  div.innerHTML = `<input type="text" class="m-0 p-0 bor"  value="${currentText}" onblur="switchToDiv(this)" /> `;
-  const input = div.querySelector("input");
-  input.focus();
+  $div.html(`<input type="text" class="m-0 p-0 bor" value="${currentText}" onblur="switchToDiv(this)" />`);
+  const $input = $div.find("input");
+  $input.focus();
 }
 
 function switchToDiv(input) {
-  const div = input.parentElement;
-  const updatedText = input.value;
+  const $input = $(input);
+  const $div = $input.parent();
+  const updatedText = $input.val();
 
   // Replace input with the updated text inside the div
-  div.innerHTML = updatedText;
+  $div.text(updatedText);
 }
 
-function switchToInput(div) {
+function switchToInput($div) {
   // Replace div content with an input element with an empty value
-  div.innerHTML = `<input type="text" style="width: 100%;" value="" onblur="switchToDiv(this)" />`;
-  const input = div.querySelector("input");
-  input.focus(); // Focus on the input field immediately
+  $div.html(`<input type="text" style="width: 100%;" value="" onblur="switchToDiv(this)" />`);
+  const $input = $div.find("input");
+  $input.focus(); // Focus on the input field immediately
 }
