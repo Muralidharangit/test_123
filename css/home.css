@@ -1099,6 +1099,14 @@ span.text-purple.fs-11.fw-650 {
   .fs-md-12 {
     font-size: 12px !important;
   }
+  .container.container-xs.position-relative.overflow-x_hidden.p-0.mt-md-5.col-lg-10.col-xxl-7.pt-5.mobile-pt1 {
+    margin-top: 0px !important;
+    padding: 0 !important;
+}
+.container.container-xs.position-relative.overflow-x_hidden.p-0.mt-md-5.col-lg-10.col-xxl-7.pt-5.mobile-pt1 
+.avatar-bread.my-5.lap-none.position-relative.mb-25.px-2.mb-0.mt-5.pt-3 {
+  margin-top: 0px !important;
+}
 }
 
 @media (max-width: 540px) {
@@ -1150,6 +1158,10 @@ span.text-purple.fs-11.fw-650 {
     width: 13% !important;
     margin-right: 4px !important;
   }
+
+  .tab_240pxtop {
+    margin-top: 240px !important;
+}
 
   swiper-container.mySwiper.patti swiper-slide {
     width: 45% !important;
@@ -1873,7 +1885,7 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
 }
 
 .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
-  --bs-offcanvas-transition: transform 0.6s ease-in-out !important;
+  --bs-offcanvas-transition: transform 0.2s ease-in-out !important;
 }
 
 .offcanvas#Stackespopup_blue, .offcanvas-lg#Stackespopup_blue, .offcanvas-md#Stackespopup_blue, .offcanvas-sm#Stackespopup_blue, .offcanvas-xl #Stackespopup_blue, .offcanvas-xxl #Stackespopup_blue,
@@ -2063,6 +2075,10 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
   padding-right: 8px !important;
 }
 
+.tab_240pxtop {
+  margin-top: 170px !important;
+}
+
 }
 
 
@@ -2106,6 +2122,10 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
       .topcard-img.matchsumary.lap-none div div.w-85 {
         width: 73% !important;
     }
+
+    .tab_240pxtop {
+      margin-top: 170px !important;
+  }
 }
 
 
@@ -2127,6 +2147,27 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
   top: -120px !important;
 }
 }
+
+
+
+@media(min-width:500px) and (max-width:767px){
+  .tab_240pxtop{
+    margin-top: 200px  !important;
+  }
+}
+
+@media(min-width:600px) and (max-width:700px){
+  .tab_240pxtop{
+    margin-top: 230px  !important;
+  }
+}
+
+@media(min-width:700px) and (max-width:767px){
+  .tab_240pxtop{
+    margin-top: 260px  !important;
+  }
+}
+
 
 .d-flex.h-23 .col-3.bg-blue.text-center,
 .d-flex.h-23 .col-3.bg-lightred.text-center {
@@ -2221,11 +2262,36 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
 }
 
 button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder.w-100 {
-  width: 150px !important;
-  height: 40px !important;
+  width: 108px !important;
+  height: 35px !important;
 }
 
+.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
+  overflow: hidden;
+  width: 77px !important;
 }
+
+.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center input{
+  width: 73px !important;
+    height: 30px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ebebeb;
+    border: none !important;
+    outline: none !important; /* Removes the focus outline */
+    border: none !important; /* Removes the border */
+    box-shadow: none; /* Removes any shadow effect */
+    padding: 0; 
+}
+.menu-background::before {
+  height: 100vh;
+}
+
+a.btn.btn-login.mb-1.wd_25per{
+  width: 24% !important;
+}
+}
+
 
 @media(min-width:1700px){
   .topcard-img.matchsumary.h-150 {
@@ -2385,6 +2451,24 @@ button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.
       padding: 0 0px !important;
   }
 
+
+  /* pop-updesign */
+  .offcanvas-body .col-12.pt-10.px-1 {
+    padding: 0 15px !important;
+}
+
+.offcanvas-body .col-12.pt-10.px-2 {
+  padding: 0 15px !important;
+}
+
+
+
+
+.offcanvas-body .container.px-1.my-3.text-white.fs-12 {
+  padding: 0 15px !important;
+}
+  /* end */
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -2410,4 +2494,11 @@ button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.
   .position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab {
     margin-top: 7% !important;
   }
+}
+
+
+a.btn.btn-login.mb-1.login_btn {
+  width: 50% !important;
+  height: 50px !important;
+  font-size: 19px !important;
 }

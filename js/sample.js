@@ -8110,3 +8110,42 @@ $(document).ready(function () {
     $(this).find(".list-group-sub").slideToggle();
   });
 });
+
+
+// Text box script
+document.addEventListener("click", function (event) {
+  // Check if the clicked element has the specific class combination
+  if (event.target.classList.contains("col-6") &&
+      event.target.classList.contains("bg-gray") &&
+      event.target.classList.contains("fs-12") &&
+      event.target.classList.contains("fw-700") &&
+      event.target.classList.contains("d-flex") &&
+      event.target.classList.contains("justify-content-center") &&
+      event.target.classList.contains("align-items-center")) {
+    switchToInput(event.target);
+  }
+});
+
+function switchToInput(div) {
+  const currentText = div.innerText;
+
+  // Replace div content with an input element
+  div.innerHTML = `<input type="text" class="m-0 p-0 bor"  value="${currentText}" onblur="switchToDiv(this)" /> `;
+  const input = div.querySelector("input");
+  input.focus();
+}
+
+function switchToDiv(input) {
+  const div = input.parentElement;
+  const updatedText = input.value;
+
+  // Replace input with the updated text inside the div
+  div.innerHTML = updatedText;
+}
+
+function switchToInput(div) {
+  // Replace div content with an input element with an empty value
+  div.innerHTML = `<input type="text" style="width: 100%;" value="" onblur="switchToDiv(this)" />`;
+  const input = div.querySelector("input");
+  input.focus(); // Focus on the input field immediately
+}
