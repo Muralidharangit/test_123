@@ -1915,7 +1915,16 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
 
 
 @media(max-width:992px){
+  .col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
+    width: 80px !important;
+    height: 32px !important;
+}
 
+.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center input{
+   border:none !important;
+   outline: none !important;
+   height: 32px !important;
+}
 .card-body.pt-5px.px-0.py-0{
   padding-top: 0px !important;
 }
@@ -2077,6 +2086,17 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 
 .tab_240pxtop {
   margin-top: 170px !important;
+}
+
+.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
+  width: 84px !important;
+  height: 32px !important;
+}
+
+.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center input{
+ border:none !important;
+ outline: none !important;
+ height: 32px !important;
 }
 
 }
