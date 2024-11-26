@@ -8135,7 +8135,7 @@ function switchToDiv(input) {
 
 function switchToInput($div) {
   // Replace div content with an input element with an empty value
-  $div.html(`<input type="text" style="width: 100%;" value="" onblur="switchToDiv(this)" />`);
+  $div.html(`<input type="text" style="width: 100%;" class="form-control" value="" onblur="switchToDiv(this)" />`);
   const $input = $div.find("input");
   $input.focus(); // Focus on the input field immediately
 }
