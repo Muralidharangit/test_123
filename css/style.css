@@ -103,7 +103,7 @@ body {
   height: 54px;
   background-color: #f2ff00;
   color: #a036e8;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border-radius: 40px;
   box-shadow: 0 5px 4px 0 #00000080;
 }
