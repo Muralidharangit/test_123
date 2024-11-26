@@ -1252,3 +1252,11 @@ span.fs-12.fw-900.lh-1.ps-2.l-10 {
   }
   
 }
+
+
+input, textarea {
+  touch-action: manipulation; 
+  /* / Prevent pinch zoom / */
+  -webkit-user-modify: read-write-plaintext-only;
+   /* / Stops zooming in inputs / */
+}
