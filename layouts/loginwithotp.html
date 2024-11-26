@@ -27,11 +27,93 @@
           height: 55px;
         }
       }
+      @media(max-width:992px){
+        .mobile_top30{
+          padding-top: 30px !important;
+        }
+        
+      }
     </style>
   </head>
   <body>
     <div class="container container-xs vh-100 create-user-bg bg_image_both_L_M">
-  
+      <nav
+      class="navbar navbar-expand-lg bg-purple br-yellow fixed-top mobile-tab-none"
+    >
+      <div class="container col-md-12">
+        <img src="../img/play-X-logonew.png" alt="logo" class="w-11" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 text-white fs-15 fw-600 gap-2"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">In-play</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Teenpatti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Casino</a>
+            </li>
+          </ul>
+          <div class="d-flex g-15 align-items-center" role="search">
+            <a href="./customerSupport.html" class="text-decoration-none">
+              <button
+                class="btn btn-yellow rounded-pill header-btnyellow fs-14 me-xl-5"
+                type="submit"
+              >
+                <i class="fa-solid fa-phone"></i> Call
+              </button>
+            </a>
+            <div class="d-flex g-15">
+              <a href="./login.html" class="text-decoration-none">
+                <button
+                  class="btn btn-yellow rounded-pill header-btnyellow fs-14 bg-white"
+                  type="submit"
+                >
+                  Login
+                </button>
+              </a>
+              <a href="./main_joinnow.html" class="text-decoration-none">
+                <button
+                  class="btn btn-yellow rounded-pill header-btnyellow fs-14 bg-white"
+                  type="submit"
+                >
+                  Signup
+                </button>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <button
+                  class="btn btn-yellow rounded-pill bg-yellow fs-14"
+                  type="submit"
+                >
+                  Demo Login
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
       <div
         class="d-flex justify-content-center fixed-top w-100 topheader_lap mobile-tab-none"
       >
@@ -53,9 +135,9 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-sm-9 col-md-5 col-lg-5 col-xl-4 px-0">
-          <div class="d-flex flex-column justify-content-between vh-100">
+          <div class="d-flex flex-column justify-content-between vh-100 ">
             <div
-              class="d-flex justify-content-center w-100"
+              class="d-flex justify-content-center w-100 mobile_top30"
               style="padding-top: 120px"
             >
               <img src="../img/race (2).png" class="center_image-width mt-2" />
@@ -64,7 +146,7 @@
               <div class="login-title text-center mb-4">Login</div>
               <div class="mb-35 mt-5">
                 <input
-                  type="text"
+                  type="number"
                   class="form-control login-form-control"
                   placeholder="Enter Phone No"
                 />
@@ -73,7 +155,7 @@
 
               <div class="text-white text-center">
                 <div class="d-flex justify-content-center">
-                  <a href="./loginwithenterotp.html" class="btn btn-login mb-3"
+                  <a href="./loginwithenterotp.html"class="btn btn-login mb-1 login_btn"
                     >Get OTP</a
                   >
                 </div>
@@ -91,9 +173,11 @@
             </div>
 
             <div
-              class="d-flex flex-column align-items-center justify-content-center W-100 px-3 mb-3"
-              style="gap: 8px !important"
-            >
+            class="d-flex flex-column align-items-center justify-content-center W-100 px-3 mb-5 mt-md-0 mt-sm-0"
+            style="gap: 2px !important;    position: relative;
+            top: -50px;
+        "
+          >
               <div class="fs-12 text-white mt-10">
                 <span class="mb-1">New to X ?</span>
               </div>
