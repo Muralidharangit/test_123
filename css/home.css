@@ -1905,6 +1905,7 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
   margin-bottom: 0px;
   overflow: hidden;
   z-index: 9999999;
+  display: block !important;
 }
 .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 div button {
   height: 30px;
