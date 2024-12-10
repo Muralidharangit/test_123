@@ -54,13 +54,17 @@ body {
 }
 
 .intro-splash-logo-x {
-  width: 208px;
+  /* width: 208px;
   height: 208px;
-  margin-left: -40px;
+  margin-left: -40px; */
+  width: 290px;
+  /* height: 208px; */
+  /* margin-left: -40px; */
 }
+
 .intro-splash-play-x-logo {
-  width: 292px;
-  height: 292px;
+  width: 290px;
+  /* height: 292px; */
 }
 .joinnow-bg {
   background-image: url("../img/joinnow-bg.png");
@@ -1112,6 +1116,16 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
   align-items: center !important;
   display: flex !important;
 }
+
+.logo_xnew {
+  /* width: 100px !important;
+  height: 89px !important; */
+
+  width: 80%;
+  /* height: 89px !important; */
+  object-fit: contain;
+  top: 20px;
+}
 @media (min-width: 360px) and (max-width: 380px) {
   .col-8.d-flex.align-items-center.justify-content-between div span {
     font-size: 6px !important;
@@ -1119,6 +1133,12 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
   }
   span.text-light.fs-12.px-2.mbfs-9 {
     font-size: 9px !important;
+  }
+
+  .logo_xnew {
+    width: 84%;
+    /* height: 89px !important; */
+    object-fit: contain;
   }
 }
 @media (min-width: 320px) and (max-width: 350px) {
@@ -1132,6 +1152,12 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
   }
   span.text-light.fs-12.px-2.mbfs-9 {
     font-size: 9px !important;
+  }
+
+  .logo_xnew {
+    width: 84%;
+    /* height: 89px !important; */
+    object-fit: contain;
   }
 }
 .fw-600 {
@@ -1194,9 +1220,11 @@ span.fw-700.fst-italic.add_account_btn {
   background-size: cover;
   padding: 2px;
 }
-.logo_xnew {
-  width: 100px !important;
-  height: 89px !important;
+
+.lap-height80 {
+  display: flex;
+  justify-content: center;
+  height: 90px;
 }
 .w-80 {
   width: 80%;
@@ -1211,7 +1239,6 @@ span.fs-12.fw-900.lh-1.ps-2.l-10 {
   margin-left: 6px !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1440px) {
-  
   .btn.bg-greyy:hover {
     background-color: #ffffff !important;
     border: 1px solid #f8c844;
@@ -1244,19 +1271,22 @@ span.fs-12.fw-900.lh-1.ps-2.l-10 {
     background: #380d54 !important;
     color: #f2ff00;
   }
-  .btn.bg-yellowww:hover{
-    background-color:#f2ff00 !important;
+  .btn.bg-yellowww:hover {
+    background-color: #f2ff00 !important;
   }
-  .text-dark-blue{
-    color: #380D54 !important;
+  .text-dark-blue {
+    color: #380d54 !important;
   }
-  
 }
 
-
-input, textarea {
-  touch-action: manipulation !important; 
+input,
+textarea {
+  touch-action: manipulation !important;
   /* / Prevent pinch zoom / */
   -webkit-user-modify: read-write-plaintext-only !important;
-   /* / Stops zooming in inputs / */
+  /* / Stops zooming in inputs / */
+}
+/* bet box style */
+.mr-2 {
+  margin-right: 2px !important;
 }

@@ -4,7 +4,7 @@
 }
 .bet-btn,
 button.btn.btn-sm.btn-grey.fw-600.fs-10.me-1.mb-2.px-1 > img {
-  margin-right: 6px;
+  margin-right: 7px;
 }
 .overflow-x,
 .overflow-x_hidden,
@@ -401,9 +401,9 @@ swiper-slide:nth-child(5n) {
 @media (min-width: 360px) and (max-width: 400px) {
   .slider_purple_btn {
     width: 120px;
-        height: 40px;
-        padding: 20px;
-        font-size: 12px;
+    height: 40px;
+    padding: 20px;
+    font-size: 12px;
   }
   .live-casino .swiper-slide a div .slider_purple_btn {
     padding: 2px !important;
@@ -449,7 +449,6 @@ swiper-slide:nth-child(5n) {
     font-size: 13px !important;
     font-weight: 400;
   }
- 
 }
 .wrapper.h-10.mt-10 {
   margin: 5px;
@@ -581,7 +580,7 @@ div#pills-tabContent {
   }
   .topcard-img.youthteam {
     top: -114px !important;
-}
+  }
 }
 swiper-container.mySwiper.table-slidepop {
   overflow-x: clip;
@@ -969,7 +968,7 @@ span.text-purple.fs-11.fw-650 {
   }
   .d-flex.px-1.m-0.gap-1.button-withdraw.mb-2.lap-none.gap-1rem {
     gap: 1rem !important;
-}
+  }
 }
 .Search_box_container {
   background: #00000070;
@@ -1102,11 +1101,11 @@ span.text-purple.fs-11.fw-650 {
   .container.container-xs.position-relative.overflow-x_hidden.p-0.mt-md-5.col-lg-10.col-xxl-7.pt-5.mobile-pt1 {
     margin-top: 0px !important;
     padding: 0 !important;
-}
-.container.container-xs.position-relative.overflow-x_hidden.p-0.mt-md-5.col-lg-10.col-xxl-7.pt-5.mobile-pt1 
-.avatar-bread.my-5.lap-none.position-relative.mb-25.px-2.mb-0.mt-5.pt-3 {
-  margin-top: 0px !important;
-}
+  }
+  .container.container-xs.position-relative.overflow-x_hidden.p-0.mt-md-5.col-lg-10.col-xxl-7.pt-5.mobile-pt1
+    .avatar-bread.my-5.lap-none.position-relative.mb-25.px-2.mb-0.mt-5.pt-3 {
+    margin-top: 0px !important;
+  }
 }
 
 @media (max-width: 540px) {
@@ -1161,7 +1160,7 @@ span.text-purple.fs-11.fw-650 {
 
   .tab_240pxtop {
     margin-top: 240px !important;
-}
+  }
 
   swiper-container.mySwiper.patti swiper-slide {
     width: 45% !important;
@@ -1214,6 +1213,10 @@ span.text-purple.fs-11.fw-650 {
     width: 49% !important;
     margin-right: 10px !important;
   }
+  .logo_xnew {
+    width: 54%;
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1224,8 +1227,6 @@ span.text-purple.fs-11.fw-650 {
   .mobile-tab-pad4 {
     padding: 0 30px;
   }
-
-  
 }
 
 .mobile-90 {
@@ -1245,12 +1246,12 @@ span.text-purple.fs-11.fw-650 {
     font-size: 20px !important;
     height: 55px !important;
     border-radius: 8px;
-}
-button.deposit_button.fs-10.fw-700.h-34.w-100.text-white 
-.d-flex.justify-content-around.align-items-center.fs-12{
-  font-size: 20px !important;
-  height: 55px !important;
-}
+  }
+  button.deposit_button.fs-10.fw-700.h-34.w-100.text-white
+    .d-flex.justify-content-around.align-items-center.fs-12 {
+    font-size: 20px !important;
+    height: 55px !important;
+  }
 
   .button-deposite .flex-fill.d-flex.justify-content-center {
     width: 33%;
@@ -1430,7 +1431,7 @@ button.deposit_button.fs-10.fw-700.h-34.w-100.text-white
 
   .position-relative.br-10.br-yellow.mb-3 .mt-60 {
     margin-top: 0px !important;
-}
+  }
 }
 
 @media (min-width: 1300px) {
@@ -1466,19 +1467,17 @@ button.deposit_button.fs-10.fw-700.h-34.w-100.text-white
   .lap-block.container-fluid.p-0.pl-30.pr-0 {
     padding-left: 0px !important;
   }
-  .d-flex.px-1.m-0.gap-1.button-withdraw.mb-2 .flex-fill.d-flex.justify-content-center {
+  .d-flex.px-1.m-0.gap-1.button-withdraw.mb-2
+    .flex-fill.d-flex.justify-content-center {
     flex: 1 1 !important;
+  }
+  .d-flex.px-1.m-0.gap-1.button-withdraw.mb-2
+    button.deposit_button.gray.fs-14.fw-700.h-34.w-100.text-black {
+    background: #2f2f2fa6 !important;
+    color: white !important;
+    border: 1px solid #ffffff63;
+  }
 }
-.d-flex.px-1.m-0.gap-1.button-withdraw.mb-2
-button.deposit_button.gray.fs-14.fw-700.h-34.w-100.text-black {
-  background: #2f2f2fa6 !important;
-  color: white !important;
-  border: 1px solid #ffffff63;
-}
-
-}
-
-
 
 @media (min-width: 767px) and (max-width: 992px) {
   .tabmx-w-100 {
@@ -1561,8 +1560,15 @@ nav.navbar.navbar-expand-lg.bg-purple.br-yellow {
 
 .w-11 {
   width: 11%;
+  margin-right: 10px;
 }
 
+button.btn.btn-yellow.rounded-pill.header-btnyellow.fs-14.me-5 {
+  margin-right: 8rem !important;
+}
+.margin-right8 {
+  margin-right: 8rem !important;
+}
 /* search-vbar */
 
 .search {
@@ -1692,12 +1698,11 @@ a.list-group-item.list-group-item-action.px-2.py-1.text-left.border-bottomlightg
   }
 }
 
-.w-85{
+.w-85 {
   width: 85%;
 }
 
-
-.offcanvas-body.small.p-0.overflow-x-hidden.h-40{
+.offcanvas-body.small.p-0.overflow-x-hidden.h-40 {
   --bs-offcanvas-zindex: 1045;
   --bs-offcanvas-width: 400px;
   --bs-offcanvas-height: 44vh;
@@ -1713,73 +1718,67 @@ a.list-group-item.list-group-item-action.px-2.py-1.text-left.border-bottomlightg
   border-radius: 0 0 20px 20px;
 }
 
-
-.mb-70{
-margin-bottom:70px !important ;
+.mb-70 {
+  margin-bottom: 70px !important ;
 }
 
-.mt-65{
+.mt-65 {
   margin-top: 65px !important;
 }
-.topcard-img{
+.topcard-img {
   position: absolute;
-    top: -19%;
+  top: -19%;
 }
 
-.btnh-30 div button{
-  height:30px !important
+.btnh-30 div button {
+  height: 30px !important;
 }
 /* 4 pop-up Starts */
-.table-popup-container{
+.table-popup-container {
   /* margin-bottom: 90px; */
   background-color: #380d54;
 }
 
 .offcanvas.offcanvas-bottom.table-popup-container.max-content {
-  height:50% !important;
+  height: 50% !important;
   border-radius: 0 0 20px 20px !important;
 }
 .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 div button {
   height: 30px;
-
 }
 /* 4 pop-up Ends */
 
 button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
-
   border: 1px solid #f2ff0066;
-
 }
-@media(max-width:500px){
-
-
-a.btn.btn-sm.btn-theme-outline.rounded-pill.text-nowrap.fs-12.fw-500.px-3.py-1.me-2 {
-  border-radius: 5px !important;
-  color: #ffffff;
-  background: #380d54;
-  /* width: 100% !important; */
-  padding: 0px 10px !important;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 0.5px solid #f9f21199;
-  font-size: 13px !important;
-  font-weight: 600;
-  border-radius: 6px !important;
-  
-}
-.card.casino.my-5.mb-5.lap-none.mx-mar-15{
-  margin: 15px 15px 0 15px !important;
-}
-swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_btn.latestgaming swiper-slide {
-  width: 80% !important;
-}
-.table-headbet {
-  background: #fff;
-  margin: 6px 0 0px 0 !important;
-  padding: 0 0px 0 0 !important;
-}
+@media (max-width: 500px) {
+  a.btn.btn-sm.btn-theme-outline.rounded-pill.text-nowrap.fs-12.fw-500.px-3.py-1.me-2 {
+    border-radius: 5px !important;
+    color: #ffffff;
+    background: #380d54;
+    /* width: 100% !important; */
+    padding: 0px 10px !important;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #f9f21199;
+    font-size: 13px !important;
+    font-weight: 600;
+    border-radius: 6px !important;
+  }
+  .card.casino.my-5.mb-5.lap-none.mx-mar-15 {
+    margin: 15px 15px 0 15px !important;
+  }
+  swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_btn.latestgaming
+    swiper-slide {
+    width: 80% !important;
+  }
+  .table-headbet {
+    background: #fff;
+    margin: 6px 0 0px 0 !important;
+    padding: 0 0px 0 0 !important;
+  }
 }
 .topcard-img.youthteam {
   top: -23% !important;
@@ -1788,45 +1787,38 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
   top: -26% !important;
 }
 
-@media(min-width:320px){
+@media (min-width: 320px) {
   .topcard-img {
     top: -12% !important;
-}
+  }
 
-.position-relative.br-10.br-yellow.mb-3 .mt-60 {
-  margin-top: 60px !important;
-}
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 60px !important;
+  }
 
-.topcard-img.youthteam {
-  top: -21% !important;
-}
+  .topcard-img.youthteam {
+    top: -21% !important;
+  }
 }
 @media (min-width: 360px) {
   .topcard-img {
     top: -13%;
   }
 
-  
-.topcard-img.youthteam {
-  top: -98px !important;
-}
+  .topcard-img.youthteam {
+    top: -98px !important;
+  }
 }
 
 @media (min-width: 400px) {
   .topcard-img {
-      top: -15% !important;
+    top: -15% !important;
   }
-  
-.topcard-img.youthteam {
-  top: -112px !important;
+
+  .topcard-img.youthteam {
+    top: -112px !important;
+  }
 }
-} 
-
-
-
-
-
-
 
 /* @media (max-width: 441px) {
   .topcard-img {
@@ -1849,58 +1841,70 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
   }
 } */
 
-@media(max-width:992px){
+@media (max-width: 992px) {
   .position-relative.br-10.br-yellow.mb-3 .mt-60 {
     margin-top: 60px !important;
+  }
+  .container-full.title-heads.text-left h3 {
+    font-size: 16px !important;
+  }
+
+  .card-header.btn-theme-bg.px-0.py-1.d-flex.align-items-center.left_top_right_border.br-left_right.px-1.py-1
+    .card-body.pt-5px.px-0.py-0 {
+    padding-top: 0px !important;
+  }
 }
-.container-full.title-heads.text-left h3 {
-  font-size: 16px !important;
-}
 
-.card-header.btn-theme-bg.px-0.py-1.d-flex.align-items-center.left_top_right_border.br-left_right.px-1.py-1
-.card-body.pt-5px.px-0.py-0{
-  padding-top: 0px !important;
-}
-}
-
-
-
-
-@media(min-width:993px){
+@media (min-width: 993px) {
   .position-relative.br-10.br-yellow.mb-3 .mt-60 {
     /* margin-top: 0px !important; */
-}
-.topcard-img.youthteam{
-  /* display: none !important; */
+  }
+  .topcard-img.youthteam {
+    /* display: none !important; */
+  }
+
+  .position-relative.br-10.br-yellow.mb-3 {
+    /* margin-top: 0 !important; */
+    border: none !important;
+  }
 }
 
-.position-relative.br-10.br-yellow.mb-3{
-  /* margin-top: 0 !important; */
-  border:none !important;
-}
-}
-
-.position-relative.br-10.br-yellow.mb-3{
+.position-relative.br-10.br-yellow.mb-3 {
   padding: 0 2px;
 }
 
-.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+.offcanvas,
+.offcanvas-lg,
+.offcanvas-md,
+.offcanvas-sm,
+.offcanvas-xl,
+.offcanvas-xxl {
   --bs-offcanvas-transition: transform 0.2s ease-in-out !important;
 }
 
-.offcanvas#Stackespopup_blue, .offcanvas-lg#Stackespopup_blue, .offcanvas-md#Stackespopup_blue, .offcanvas-sm#Stackespopup_blue, .offcanvas-xl #Stackespopup_blue, .offcanvas-xxl #Stackespopup_blue,
-.offcanvas#Stackespopup_red, .offcanvas-lg#Stackespopup_red, .offcanvas-md#Stackespopup_red, .offcanvas-sm#Stackespopup_red, .offcanvas-xl #Stackespopup_red, .offcanvas-xxl #Stackespopup_red{
+.offcanvas#Stackespopup_blue,
+.offcanvas-lg#Stackespopup_blue,
+.offcanvas-md#Stackespopup_blue,
+.offcanvas-sm#Stackespopup_blue,
+.offcanvas-xl #Stackespopup_blue,
+.offcanvas-xxl #Stackespopup_blue,
+.offcanvas#Stackespopup_red,
+.offcanvas-lg#Stackespopup_red,
+.offcanvas-md#Stackespopup_red,
+.offcanvas-sm#Stackespopup_red,
+.offcanvas-xl #Stackespopup_red,
+.offcanvas-xxl #Stackespopup_red {
   --bs-offcanvas-transition: transform 0s ease-in-out !important;
 }
 
-.table-popup-container{
+.table-popup-container {
   /* margin-bottom: 90px; */
   background-color: #380d54;
 }
 
 .offcanvas.offcanvas-bottom.table-popup-container.max-content {
-  height:max-content !important;
-  
+  height: max-content !important;
+
   border-radius: 0 0 20px 20px !important;
   margin-bottom: 0px;
   overflow: hidden;
@@ -1909,97 +1913,96 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
 }
 .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 div button {
   height: 30px;
-
 }
 
-
-
-
-@media(max-width:992px){
+@media (max-width: 992px) {
   .col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
     width: 80px !important;
     height: 32px !important;
+  }
+
+  .col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center
+    input {
+    border: none !important;
+    outline: none !important;
+    height: 32px !important;
+  }
+  .card-body.pt-5px.px-0.py-0 {
+    padding-top: 0px !important;
+  }
+  .table-headbet.overflow-hidden.br-15 {
+    margin: 0px 0 0px 0 !important;
+  }
+
+  .topcard-img.youthteam div div.w-85 {
+    width: 94% !important;
+  }
+
+  button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder {
+    width: 150px !important;
+    height: 45px;
 }
 
-.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center input{
-   border:none !important;
-   outline: none !important;
-   height: 32px !important;
-}
-.card-body.pt-5px.px-0.py-0{
-  padding-top: 0px !important;
-}
-.table-headbet.overflow-hidden.br-15{
-  margin: 0px 0 0px 0 !important;
-}
+  .container.container-xs.position-relative.p-0.mt-5.col-lg-10.col-xxl-10.pt-sm-0.mt-0.mt-sm-0.pt-5.mobile-margin-0 {
+    margin: 0 !important;
+  }
+  .container.container-xs.position-relative.p-0.mt-5.col-lg-10.col-xxl-10.pt-sm-0.mt-0.mt-sm-0.pt-5.mobile-margin-0.mobile-padding-0 {
+    padding: 0 !important;
+  }
+  .home-header-bg-area.mobile-90.laptop-190 {
+    height: 0 !important;
+  }
+  .bg-vio-part {
+    height: 45px;
+    background-color: transparent !important;
+  }
+  .scrollToTopBtn.showBtn {
+    display: none;
+  }
+  .image_play_btn_hover_effect .text_btn_play-button {
+    font-size: 13px !important;
+  }
+  .row.d-b.text-purple.py-2-cus,
+  .row.text-purple.py-2-cus {
+    padding: 1px 7px 2px 4px !important;
+  }
+  .fs-10 {
+    font-size: 9px !important;
+  }
+  .col-3 .text-white.fs-10.fw-600 {
+    font-size: 7px !important;
+  }
+  .card_align_fixing .table-headbet .row {
+    padding: 1px 6px;
+  }
 
-.topcard-img.youthteam div div.w-85 {
-  width: 94% !important;
-}
+  .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 > .col-3 {
+    padding: 0 !important;
+  }
+  button.bg-blue.br-5.w-100.fs-10.fw-700 {
+    width: 75px !important;
+  }
 
-.container.container-xs.position-relative.p-0.mt-5.col-lg-10.col-xxl-10.pt-sm-0.mt-0.mt-sm-0.pt-5.mobile-margin-0 {
-  margin: 0 !important;
-}
-.container.container-xs.position-relative.p-0.mt-5.col-lg-10.col-xxl-10.pt-sm-0.mt-0.mt-sm-0.pt-5.mobile-margin-0.mobile-padding-0{
-  padding: 0 !important;
-}
-.home-header-bg-area.mobile-90.laptop-190{
-  height: 0 !important;
-}
-.bg-vio-part {
-  height: 45px;
-background-color:transparent !important;
-}
-.scrollToTopBtn.showBtn{
-  display: none;
-}
-.image_play_btn_hover_effect .text_btn_play-button {
-  font-size: 13px !important;
-}
-.row.d-b.text-purple.py-2-cus, .row.text-purple.py-2-cus {
-  padding: 1px 7px 2px 4px !important;
-}
-.fs-10 {
-  font-size: 9px !important;
-}
-.col-3 .text-white.fs-10.fw-600{
-  font-size: 7px !important;
-}
-.card_align_fixing .table-headbet .row {
-  padding: 1px 6px;
-}
+  .topcard-img.matchsumary.lap-none {
+    top: -111px !important;
+  }
 
-.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 > .col-3 {
-  padding: 0 !important;
-}
-button.bg-blue.br-5.w-100.fs-10.fw-700 {
+  .topcard-img.matchsumary.lap-none div div.w-85 {
+    width: 94% !important;
+  }
 
-  width: 75px !important;
-
+  .bg-lightred.br-5.w-100.fs-10.fw-700 {
+    width: 75px !important;
+    height: 21px;
+    height: 32px !important;
+    font-size: 11px !important;
+  }
+  .container.px-1.my-3.text-white.fs-12
+    .d-flex.justify-content-between.pb-1:nth-child(3) {
+    border-top: 1px solid #ffffff85;
+    /* padding-top: 10px; */
+  }
 }
-
-.topcard-img.matchsumary.lap-none{
-  top:-111px !important;
-}
-
-.topcard-img.matchsumary.lap-none div div.w-85{
-  width: 94% !important;
-}
-
-.bg-lightred.br-5.w-100.fs-10.fw-700 {
-  width: 75px !important;
-  height: 21px;
-  height: 32px !important;
-  font-size: 11px !important;
-}
-.container.px-1.my-3.text-white.fs-12
-.d-flex.justify-content-between.pb-1:nth-child(3) {
-  border-top: 1px solid #ffffff85;
-  /* padding-top: 10px; */
-}
-
-}
-
 
 @media (min-width: 425px) and (max-width: 500px) {
   .topcard-img .w-85 {
@@ -2013,95 +2016,93 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
   }
   .topcard-img.youthteam2 {
     top: -32% !important;
+  }
+
+  .topcard-img {
+    top: -18% !important;
+  }
+
+  .topcard-img.matchsumary {
+    top: -13% !important;
+  }
+  .bg-lightred.br-5.w-100.fs-10.fw-700,
+  button.bg-blue.br-5.w-100.fs-10.fw-700 {
+    width: 84px !important;
+    height: 38px !important;
+    font-size: 13px !important;
+  }
+
+  .pop-btn {
+    width: 115px !important;
+    height: 32px !important;
+  }
+
+  button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
+    width: 120px !important;
+    height: 38px !important;
+    font-size: 12px !important;
+  }
+
+  button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
+    font-size: 12px !important;
+  }
+  .btnh-30 div button {
+    height: 38px !important;
+  }
+
+  .topcard-img.youthteam {
+    /* top: -28% !important; */
+    width: 100%;
+  }
+  .mt-new425 {
+    margin-top: 80px !important;
+  }
+
+  .topcard-img.youthteam div div.w-85 img {
+    height: 140px;
+    object-fit: contain;
+  }
+
+  .topcard-img.matchsumary.lap-nonediv div.w-85 img {
+    height: 140px;
+    object-fit: contain;
+  }
+
+  .topcard-img.matchsumary.lap-none div div.w-85 {
+    width: 94%;
+  }
+
+  .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 {
+    padding: 0 0px !important;
+    margin: 5px 0;
+  }
+
+  .mx-375 .d-flex.px-3.gap-18 {
+    padding: 0 5px !important;
+    gap: 10px !important;
+    margin-bottom: 9px;
+  }
+
+  .d-flex.justify-content-end.w-100.pl-mx360 {
+    padding-right: 8px !important;
+  }
+
+  .tab_240pxtop {
+    margin-top: 170px !important;
+  }
+
+  .col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
+    width: 84px !important;
+    height: 32px !important;
+  }
+
+  .col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center
+    input {
+    border: none !important;
+    outline: none !important;
+    height: 32px !important;
+  }
 }
-
-.topcard-img {
-  top: -18% !important;
-}
-
-.topcard-img.matchsumary{
-  top: -13% !important;
-}
-.bg-lightred.br-5.w-100.fs-10.fw-700 ,
-button.bg-blue.br-5.w-100.fs-10.fw-700 {
-  width: 84px !important;
-  height: 38px !important;
-  font-size: 13px !important;}
-
-
-.pop-btn {
-  width: 115px !important;
-  height: 32px !important;
-}
-
-button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
-  width: 120px !important;
-  height: 38px !important;
-  font-size: 12px !important;}
-
-
-button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
-  font-size: 12px !important;
-}
-.btnh-30 div button{
-  height:38px !important
-}
-
-.topcard-img.youthteam {
-  /* top: -28% !important; */
-   width: 100%;
-}
-.mt-new425 {
-  margin-top: 80px !important;
-}
-
-.topcard-img.youthteam div div.w-85 img {
-  height: 140px;
-  object-fit: contain;
-}
-
-
-.topcard-img.matchsumary.lap-nonediv div.w-85 img {
-  height: 140px;
-  object-fit: contain;
-}
-
-.topcard-img.matchsumary.lap-none div div.w-85 {
-  width: 94%;
-}
-
-.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 {
-  padding: 0 0px !important;
-  margin: 5px 0;
-}
-
-.mx-375 .d-flex.px-3.gap-18 {
-  padding: 0 5px !important;
-  gap: 10px !important;
-  margin-bottom: 9px;
-}
-
-.d-flex.justify-content-end.w-100.pl-mx360 {
-  padding-right: 8px !important;
-}
-
-.tab_240pxtop {
-  margin-top: 170px !important;
-}
-
-.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
-  width: 84px !important;
-  height: 32px !important;
-}
-
-.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center input{
- border:none !important;
- outline: none !important;
- height: 32px !important;
-}
-
-}
-
 
 /* @media screen and (max-height: 561px) { */
 @media only screen and (max-width: 375px) and (max-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -2117,78 +2118,67 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
     margin-top: 66px !important;
   }
 
-
   .offcanvas.offcanvas-bottom.table-popup-container.max-content {
     height: 53% !important;
     border-radius: 0 0 20px 20px !important;
-}
- 
+  }
 }
 
-
-@media(min-width:500px) and (max-width:767px){
+@media (min-width: 500px) and (max-width: 767px) {
   .topcard-img.youthteam div div.w-85 {
     width: 73% !important;
-}
+  }
 
-.topcard-img.matchsumary.lap-none div div.w-85 {
-  width: 73% !important;
+  .topcard-img.matchsumary.lap-none div div.w-85 {
+    width: 73% !important;
+  }
 }
-}
-@media only screen and (min-width: 500px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), 
-       only screen and (min-width: 500px) and (max-width: 767px) and (min-resolution: 192dpi) {
-        .topcard-img.youthteam div div.w-85 {
-          width: 73% !important;
-      }
-      .topcard-img.matchsumary.lap-none div div.w-85 {
-        width: 73% !important;
-    }
+@media only screen and (min-width: 500px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-width: 500px) and (max-width: 767px) and (min-resolution: 192dpi) {
+  .topcard-img.youthteam div div.w-85 {
+    width: 73% !important;
+  }
+  .topcard-img.matchsumary.lap-none div div.w-85 {
+    width: 73% !important;
+  }
 
-    .tab_240pxtop {
-      margin-top: 170px !important;
+  .tab_240pxtop {
+    margin-top: 170px !important;
   }
 }
 
-
-
-
-
-
-@media(min-width:450px) and (max-width:500px){
+@media (min-width: 450px) and (max-width: 500px) {
   .position-relative.br-10.br-yellow.mb-3.mx-1.px-0.mt-120 {
     margin-top: 140px !important;
-}
-.topcard-img.matchsumary.lap-none {
-  top: -130px !important;
-}
-.position-relative.br-10.br-yellow.mb-3.mt-120{
-  margin-top: 140px !important;
-}
-.topcard-img.youthteam {
-  top: -120px !important;
-}
-}
-
-
-
-@media(min-width:500px) and (max-width:767px){
-  .tab_240pxtop{
-    margin-top: 200px  !important;
+  }
+  .topcard-img.matchsumary.lap-none {
+    top: -130px !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3.mt-120 {
+    margin-top: 140px !important;
+  }
+  .topcard-img.youthteam {
+    top: -120px !important;
   }
 }
 
-@media(min-width:600px) and (max-width:700px){
-  .tab_240pxtop{
-    margin-top: 230px  !important;
+@media (min-width: 500px) and (max-width: 767px) {
+  .tab_240pxtop {
+    margin-top: 200px !important;
   }
 }
 
-@media(min-width:700px) and (max-width:767px){
-  .tab_240pxtop{
-    margin-top: 260px  !important;
+@media (min-width: 600px) and (max-width: 700px) {
+  .tab_240pxtop {
+    margin-top: 230px !important;
   }
 }
 
+@media (min-width: 700px) and (max-width: 767px) {
+  .tab_240pxtop {
+    margin-top: 260px !important;
+  }
+}
 
 .d-flex.h-23 .col-3.bg-blue.text-center,
 .d-flex.h-23 .col-3.bg-lightred.text-center {
@@ -2198,102 +2188,103 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
   font-size: 19px !important;
 }
 
-@media(max-width:425px){
+@media (max-width: 425px) {
   .container.px-1.my-3.text-white.fs-12 {
     /* padding: 0 17px !important; */
     padding: 0 10px !important;
-}
+  }
 
-button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
-  width: 110px !important;
-}
-.pop-btn {
-  width: 110px !important;}
+  button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
+    width: 110px !important;
+  }
+  .pop-btn {
+    width: 110px !important;
+  }
 
   .btnh-30 div button {
     height: 38px !important;
-}
-button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
-  font-size: 10px !important;
+  }
+  button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
+    font-size: 10px !important;
 
-  text-transform: uppercase;
+    text-transform: uppercase;
+  }
+  button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
+    font-size: 10px !important;
+  }
+  .d-flex.justify-content-between.btnh-30 {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 }
-button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
-  font-size: 10px !important;
 
-}
-.d-flex.justify-content-between.btnh-30{
-  padding-left: 4px;
-  padding-right: 4px;
-}
-}
-
-@media  (max-width: 425px){
- 
+@media (max-width: 425px) {
   .mx-375 .d-flex.px-3.gap-18 {
     padding: 0 12px !important;
-}
+  }
   .d-flex.justify-content-end.w-100.pl-mx360 {
     padding-right: 15px !important;
   }
 
-  .col-4.d-flex.justify-content-between.align-items-center p.text-alert.fs-10.fw-700.text-decoration_none.m-0.text-yellow {
+  .col-4.d-flex.justify-content-between.align-items-center
+    p.text-alert.fs-10.fw-700.text-decoration_none.m-0.text-yellow {
     position: relative;
     right: -29px;
-}
+  }
 }
 
-
-@media(min-width:1000px){
+@media (min-width: 1000px) {
   .topcard-img {
     top: -10% !important;
-}
+  }
 
-.tab-pane.fade.show.active.purple_card.mt-65.mx-1{
-  margin-top: 7% !important;
-}
-.mt-15per{
-  margin-top: 15%;
-}
+  .tab-pane.fade.show.active.purple_card.mt-65.mx-1 {
+    margin-top: 7% !important;
+  }
+  .mt-15per {
+    margin-top: 15%;
+  }
 
-.position-relative.br-10.br-yellow.mb-3 {
-  border: 1px solid #f8c844 !important;
-}
+  .position-relative.br-10.br-yellow.mb-3 {
+    border: 1px solid #f8c844 !important;
+  }
 
-.topcard-img.matchsumary.h-150 {
-  height: 150px;
-  top: -12% !important;
-}
-.tab-pane.fade.show.active.purple_card.mt-65.mx-1.mt-100 {
-  margin-top: 12% !important;
-}
-.bet-btn, button.btn.btn-sm.btn-grey.fw-600.fs-10.me-1.mb-2.px-1 > img {
-  margin-right: 6px;
-}
+  .topcard-img.matchsumary.h-150 {
+    height: 150px;
+    top: -12% !important;
+  }
+  .tab-pane.fade.show.active.purple_card.mt-65.mx-1.mt-100 {
+    margin-top: 12% !important;
+  }
+  .bet-btn,
+  button.btn.btn-sm.btn-grey.fw-600.fs-10.me-1.mb-2.px-1 > img {
+    margin-right: 6px;
+  }
 
-.card-body.pt-5px.px-0.py-0.p-0 {
-  padding: 0 !important;
-}
+  .card-body.pt-5px.px-0.py-0.p-0 {
+    padding: 0 !important;
+  }
 
-.position-relative.br-10.br-yellow.mb-3 .mt-60 {
-  margin-top: 11% !important;
-}
-.topcard-img.youthteam.new_topinplay {
-  top: -17% !important;
-}
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 11% !important;
+  }
+  .topcard-img.youthteam.new_topinplay {
+    top: -17% !important;
+  }
 
-button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder.w-100 {
-  width: 108px !important;
-  height: 35px !important;
-}
+  button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder.w-100 {
+    width: 140px !important;
+    height: 45px !important;
+  }
 
-.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
-  overflow: hidden;
-  width: 77px !important;
-}
+  .col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center {
+    overflow: hidden;
+    width: 77px !important;
+  }
 
-.col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center input{
-  width: 73px !important;
+  .col-6.bg-gray.fs-12.fw-700.d-flex.justify-content-center.align-items-center
+    input {
+    width: 73px !important;
     height: 30px !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -2302,19 +2293,18 @@ button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.
     outline: none !important; /* Removes the focus outline */
     border: none !important; /* Removes the border */
     box-shadow: none; /* Removes any shadow effect */
-    padding: 0; 
-}
-.menu-background::before {
-  height: 100vh;
+    padding: 0;
+  }
+  .menu-background::before {
+    height: 100vh;
+  }
+
+  a.btn.btn-login.mb-1.wd_25per {
+    width: 24% !important;
+  }
 }
 
-a.btn.btn-login.mb-1.wd_25per{
-  width: 24% !important;
-}
-}
-
-
-@media(min-width:1700px){
+@media (min-width: 1700px) {
   .topcard-img.matchsumary.h-150 {
     height: 150px;
     top: -16% !important;
@@ -2325,17 +2315,17 @@ a.btn.btn-login.mb-1.wd_25per{
 
   .lap-block.container-fluid.max-1400px {
     max-width: 1400px;
+  }
+
+  .topcard-img.youthteam div div.w-85.mobile-tab-none {
+    width: 70% !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 8% !important;
+  }
 }
 
-.topcard-img.youthteam div div.w-85.mobile-tab-none {
-  width: 70% !important;
-}
-.position-relative.br-10.br-yellow.mb-3 .mt-60 {
-  margin-top: 8% !important;
-}
-}
-
-@media(min-width:2200px){
+@media (min-width: 2200px) {
   .topcard-img.matchsumary.h-150 {
     height: 150px;
     top: -18% !important;
@@ -2343,106 +2333,100 @@ a.btn.btn-login.mb-1.wd_25per{
   .tab-pane.fade.show.active.purple_card.mt-65.mx-1.mt-100 {
     margin-top: 9% !important;
   }
-  
 }
 
-.topcard-img.youthteam.new_top{
+.topcard-img.youthteam.new_top {
   height: 150px;
 }
 
-@media(min-width:1000px) and (max-width:1200px){
+@media (min-width: 1000px) and (max-width: 1200px) {
   .topcard-img.youthteam.new_top {
     top: -20% !important;
-}
-.mt-new425.mt-11per {
-  margin-top: 12%;
+  }
+  .mt-new425.mt-11per {
+    margin-top: 12%;
+  }
+
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content {
+    height: max-content !important;
+    border-radius: 0 0 20px 20px !important;
+    margin-bottom: 0px;
+    overflow: hidden;
+    z-index: 9999999;
+    max-width: 375px !important;
+    /* right: 0 !important; */
+  }
+
+  #bluemain_popup {
+    position: fixed;
+    top: 50% !important;
+    right: 0 !important;
+  }
 }
 
-.offcanvas.offcanvas-bottom.table-popup-container.max-content {
-  height: max-content !important;
-  border-radius: 0 0 20px 20px !important;
-  margin-bottom: 0px;
-  overflow: hidden;
-  z-index: 9999999;
-  max-width: 375px !important;
-  /* right: 0 !important; */
-}
-
-
-#bluemain_popup {
-  position: fixed;
-  top: 50% !important;
-  right: 0 !important;}
-}
-
-@media(min-width:1221px) and (max-width:1400px){
+@media (min-width: 1221px) and (max-width: 1400px) {
   .topcard-img.youthteam.new_top {
     top: -24% !important;
-}
-.mt-new425.mt-11per {
-  margin-top: 10%;
-}
-.topcard-img.youthteam.new_topinplay {
-  top: -20% !important;
-}
-.position-relative.br-10.br-yellow.mb-3 .mt-60 {
-  margin-top: 10% !important;
-}
-.topcard-img.matchsumary{
-  top: -12% !important;
-}
-.position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab{
-  margin-top: 11% !important;
-}
+  }
+  .mt-new425.mt-11per {
+    margin-top: 10%;
+  }
+  .topcard-img.youthteam.new_topinplay {
+    top: -20% !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 10% !important;
+  }
+  .topcard-img.matchsumary {
+    top: -12% !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab {
+    margin-top: 11% !important;
+  }
 }
 
-
-@media(min-width:1401px) and (max-width:1600px){
+@media (min-width: 1401px) and (max-width: 1600px) {
   .topcard-img.youthteam.new_top {
     top: -28% !important;
-}
-.mt-new425.mt-11per {
-  margin-top: 10%;
-}
-.topcard-img.youthteam.new_topinplay {
-  top: -22% !important;
-}
-.position-relative.br-10.br-yellow.mb-3 .mt-60 {
-  margin-top: 11% !important;
-}
-.topcard-img.matchsumary{
-  top: -13% !important;
-}
-.position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab{
-  margin-top: 10% !important;
-}
+  }
+  .mt-new425.mt-11per {
+    margin-top: 10%;
+  }
+  .topcard-img.youthteam.new_topinplay {
+    top: -22% !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 11% !important;
+  }
+  .topcard-img.matchsumary {
+    top: -13% !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab {
+    margin-top: 10% !important;
+  }
 }
 
-
-
-@media(min-width:1601px){
+@media (min-width: 1601px) {
   .topcard-img.youthteam.new_top {
     top: -28% !important;
+  }
+  .mt-new425.mt-11per {
+    margin-top: 10%;
+  }
+  .topcard-img.youthteam.new_topinplay {
+    top: -22% !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3 .mt-60.new_topbottom {
+    margin-top: 8% !important;
+  }
+  .topcard-img.matchsumary {
+    top: -13% !important;
+  }
+  .position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab {
+    margin-top: 10% !important;
+  }
 }
-.mt-new425.mt-11per {
-  margin-top: 10%;
-}
-.topcard-img.youthteam.new_topinplay {
-  top: -22% !important;
-}
-.position-relative.br-10.br-yellow.mb-3 .mt-60.new_topbottom {
-  margin-top: 8% !important;
-}
-.topcard-img.matchsumary{
-  top: -13% !important;
-}
-.position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab{
-  margin-top: 10% !important;
-}
-
-
-}
-@media(min-width:1000px){
+@media (min-width: 1000px) {
   .offcanvas.offcanvas-bottom.table-popup-container.max-content {
     height: max-content !important;
     border-radius: 0 0 20px 20px !important;
@@ -2452,74 +2436,80 @@ a.btn.btn-login.mb-1.wd_25per{
     max-width: 375px !important;
     right: 0 !important;
   }
-  
-  
-  .offcanvas.offcanvas-bottom.table-popup-container.max-content.show{
+
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content.show {
     position: fixed;
     top: 50% !important;
     right: 0 !important;
-    left: auto;}
-
-    .offcanvas.offcanvas-bottom{
-      left: auto !important;
-      transform: translateX(100%);
-    }
-
-
-    .table-headbet {
-      background: #fff;
-      margin: 0px 0 !important;
-      padding: 0 0px !important;
+    left: auto;
   }
 
+  .offcanvas.offcanvas-bottom {
+    left: auto !important;
+    transform: translateX(100%);
+  }
+
+  .table-headbet {
+    background: #fff;
+    margin: 0px 0 !important;
+    padding: 0 0px !important;
+  }
 
   /* pop-updesign */
   .offcanvas-body .col-12.pt-10.px-1 {
     padding: 0 15px !important;
-}
+  }
 
-.offcanvas-body .col-12.pt-10.px-2 {
-  padding: 0 15px !important;
-}
+  .offcanvas-body .col-12.pt-10.px-2 {
+    padding: 0 15px !important;
+  }
 
-
-
-
-.offcanvas-body .container.px-1.my-3.text-white.fs-12 {
-  padding: 0 15px !important;
-}
+  .offcanvas-body .container.px-1.my-3.text-white.fs-12 {
+    padding: 0 15px !important;
+  }
   /* end */
-
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .topcard-img.youthteam div div.w-85 {
-      width: 54% !important;
+    width: 54% !important;
   }
 
-  .topcard-img.matchsumary  div div.w-85 {
+  .topcard-img.matchsumary div div.w-85 {
     width: 54% !important;
-}
+  }
 }
 
 .card-body.pt-5px.px-0.py-0 {
   padding: 0 !important;
 }
 
-
-@media(min-width:1700px){
+@media (min-width: 1700px) {
   .topcard-img.matchsumary div div.w-85 {
     width: 64% !important;
   }
-  
+
   .position-relative.br-10.br-yellow.mb-3 .mt-60.match-sumarytab {
     margin-top: 7% !important;
   }
 }
 
-
 a.btn.btn-login.mb-1.login_btn {
   width: 50% !important;
   height: 50px !important;
   font-size: 19px !important;
+}
+
+
+button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  font-size: 19px;
+  line-height: 21px;
+  color: #f2ff00 !important;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 84px;
+  right: 14px;
 }
