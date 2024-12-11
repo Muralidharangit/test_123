@@ -1432,6 +1432,16 @@ span.text-purple.fs-11.fw-650 {
   .position-relative.br-10.br-yellow.mb-3 .mt-60 {
     margin-top: 0px !important;
   }
+
+  .page-header.is-sticky {
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    padding: 0 45px !important;}
+
+    .home-header {
+      padding-left: 45px;
+      padding-right: 45px;
+      padding-top: 0 !important;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -2233,7 +2243,12 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
   }
 }
 
+
 @media (min-width: 1000px) {
+
+  button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn{
+    display: none !important;
+  }
   .topcard-img {
     top: -10% !important;
   }
@@ -2437,9 +2452,13 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
     right: 0 !important;
   }
 
+  .lap_150px{
+margin-top: 150px !important;
+  }
+
   .offcanvas.offcanvas-bottom.table-popup-container.max-content.show {
     position: fixed;
-    top: 50% !important;
+    top: 40% !important;
     right: 0 !important;
     left: auto;
   }
