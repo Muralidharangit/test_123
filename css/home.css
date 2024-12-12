@@ -728,7 +728,7 @@ swiper-container.mySwiper.table-slidepop .swiper {
 }
 .page-header.is-sticky {
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
-  padding: 0 25px;
+  /* padding: 0 25px; */
   position: fixed;
   animation: 0.35s ease-out slideDown;
   width: 100%;
@@ -2230,7 +2230,8 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
 
 @media (max-width: 425px) {
   .mx-375 .d-flex.px-3.gap-18 {
-    padding: 0 12px !important;
+    /* padding: 0 12px !important; */
+    padding: 0 18px 0 6px !important;
   }
   .d-flex.justify-content-end.w-100.pl-mx360 {
     padding-right: 15px !important;
@@ -2521,23 +2522,27 @@ a.btn.btn-login.mb-1.login_btn {
 
 
 button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
-  font-size: 19px;
-  line-height: 21px;
+  font-size: 13px;
+  line-height: 14px;
   color: #f2ff00 !important;
   text-transform: uppercase;
   position: fixed;
   bottom: 84px;
-  right: 14px;
+  right: 10px;
 }
+
 
 @media(max-width:992px){
   button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn{
     /* display: none !important; */
     z-index: 111111;
   }
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content {
+    /* border-radius: 0 !important; */
+}
 
 }
 .bet-tab_menu.nav-link.active{
@@ -2551,4 +2556,8 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
   content: "";
   background-color: #f2ff00;
   border-radius: 22px;
+}
+
+.d-flex.flex-wrap.justify-content-left.w-100.px-1.mb-2.br-none.g-10  img{
+  object-fit: contain !important;
 }
