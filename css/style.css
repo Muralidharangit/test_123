@@ -1290,3 +1290,18 @@ textarea {
 .mr-2 {
   margin-right: 2px !important;
 }
+
+/* bet bluered style starts */
+#bluemain_popup .form-check-input:checked,
+#redmain_popup .form-check-input:checked {
+  background-color: #4F0353;
+  border-color: #f2ff00;
+  /* background-color: #170026;
+  border-color: #ffff; */
+  
+}
+#bluemain_popup  .form-check-input,
+#redmain_popup  .form-check-input {
+  background-color: #fffdfd95;
+  border-color: #ffff;
+}

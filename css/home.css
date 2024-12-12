@@ -158,8 +158,8 @@ span.ms-2 {
   margin: 10px 0;
 }
 .home-header {
-  padding-left: 25px;
-  padding-right: 25px;
+  /* padding-left: 25px;
+  padding-right: 25px; */
   padding-top: 0 !important;
 }
 .home-header-bg-area {
@@ -909,8 +909,8 @@ span.text-purple.fs-11.fw-650 {
     border: 1px solid #f0b30db8;
   }
   .home-header {
-    padding-left: 18px;
-    padding-right: 18px;
+    /* padding-left: 18px;
+    padding-right: 18px; */
   }
   .spinner_container {
     width: 240px;
@@ -1268,7 +1268,7 @@ span.text-purple.fs-11.fw-650 {
   } */
   .d-flex.flex-grow-1.tab-viewgrownon {
     flex-grow: 0 !important;
-    gap: 34px;
+    gap: 15px;
     /* width: 100%; */
     justify-content: end;
   }
@@ -2448,7 +2448,7 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
     margin-bottom: 0px;
     overflow: hidden;
     z-index: 9999999;
-    max-width: 375px !important;
+    max-width: 340px !important;
     right: 0 !important;
   }
 
@@ -2483,7 +2483,7 @@ margin-top: 150px !important;
     padding: 0 15px !important;
   }
 
-  .offcanvas-body .container.px-1.my-3.text-white.fs-12 {
+  .offcanvas-body .container.px-1.my-2.text-white.fs-12 {
     padding: 0 15px !important;
   }
   /* end */
@@ -2535,6 +2535,7 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
 
 @media(max-width:992px){
   button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn{
-    display: none !important;
+    /* display: none !important; */
+    z-index: 111111;
   }
 }
