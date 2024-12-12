@@ -2561,3 +2561,13 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
 .d-flex.flex-wrap.justify-content-left.w-100.px-1.mb-2.br-none.g-10  img{
   object-fit: contain !important;
 }
+
+.col-12.pt-10.px-3.my-2 button, button.bg-blue.br-5.w-100.fs-12.fw-700, button.bg-lightred.br-5.w-100.fs-12.fw-700 {
+  margin: 4px 0;
+  padding: 3px 0;
+  height: 30px;
+}
+
+.h-30{
+  height: 30px;
+}
