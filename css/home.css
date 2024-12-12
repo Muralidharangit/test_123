@@ -2571,3 +2571,9 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
 .h-30{
   height: 30px;
 }
+
+@media (max-width: 400px) {
+  .topcard-img.matchsumary.lap-none {
+      top: -90px !important;
+  }
+}
