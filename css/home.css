@@ -1799,7 +1799,7 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
 
 @media (min-width: 320px) {
   .topcard-img {
-    top: -12% !important;
+    top: -10% !important;
   }
 
   .position-relative.br-10.br-yellow.mb-3 .mt-60 {
@@ -1828,6 +1828,16 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
   .topcard-img.youthteam {
     top: -112px !important;
   }
+}
+
+@media(min-width:500px){
+  .topcard-img {
+    position: absolute;
+    top: -13%  !important;
+}
+.topcard-img.matchsumary div div.w-85 {
+  width: 70% !important;
+}
 }
 
 /* @media (max-width: 441px) {
@@ -2033,7 +2043,7 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
   }
 
   .topcard-img.matchsumary {
-    top: -13% !important;
+    top: -17% !important;
   }
   .bg-lightred.br-5.w-100.fs-10.fw-700,
   button.bg-blue.br-5.w-100.fs-10.fw-700 {
@@ -2576,4 +2586,7 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
   .topcard-img.matchsumary.lap-none {
       top: -90px !important;
   }
+
+  
 }
+
