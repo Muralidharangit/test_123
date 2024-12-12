@@ -2538,4 +2538,17 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
     /* display: none !important; */
     z-index: 111111;
   }
+
+}
+.bet-tab_menu.nav-link.active{
+  color: yellow !important;
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 20px;
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-color: #f2ff00;
+  border-radius: 22px;
 }
