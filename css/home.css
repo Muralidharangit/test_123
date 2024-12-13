@@ -1263,6 +1263,19 @@ span.text-purple.fs-11.fw-650 {
   .lap-none {
     display: none !important;
   }
+
+  .row.stake_btn_size .col-3  {
+    padding: 0 3px;
+}
+
+.row.stake_btn_size .col-3  button{
+height: 34px !important;
+}
+
+.card-body.pt-5px.p-0
+button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase, button.btn-yellow.br-5.w-95.h-27.fs-10.fw-700.br-dark.text-uppercase {
+  height: 33px !important;
+}
   /* .lap-none-margin{
     display: none !important;
   } */
