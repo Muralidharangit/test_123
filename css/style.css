@@ -1305,3 +1305,6 @@ textarea {
   background-color: #fffdfd95;
   border-color: #ffff;
 }
+.bg-green:hover {
+  background-color: #02bb08;
+}

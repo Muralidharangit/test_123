@@ -2293,7 +2293,7 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
     margin-top: 11% !important;
   }
   .topcard-img.youthteam.new_topinplay {
-    top: -17% !important;
+    top: -72px !important;
   }
 
   button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder.w-100 {
@@ -2593,3 +2593,41 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
 button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase , button.btn-yellow.br-5.w-95.h-27.fs-10.fw-700.br-dark.text-uppercase{
   height:30px;
 }
+
+
+@media (min-width: 1200px) {
+  .topcard-img.youthteam.new_topinplay {
+      top: -80px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .topcard-img.youthteam.new_topinplay {
+      top: -88px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .topcard-img.youthteam.new_topinplay {
+      top: -115px !important;
+  }
+}
+
+
+
+@media (min-width: 1700px) {
+  .topcard-img.youthteam.new_topinplay {
+      top: -90px !important;
+  }
+}
+/* @media (min-width: 1800px) {
+  .topcard-img.youthteam.new_topinplay {
+      top: -104px !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .topcard-img.youthteam.new_topinplay {
+      top: -112px !important;
+  }
+} */
