@@ -1271,6 +1271,17 @@ span.text-purple.fs-11.fw-650 {
 .row.stake_btn_size .col-3  button{
 height: 34px !important;
 }
+.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 {
+  padding: 12px 22px !important;
+} 
+.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30  .col-3.d-flex.justify-content-center{
+  padding: 0 !important;
+}
+
+.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30  .col-3.d-flex.justify-content-center
+button.bg-blue.br-5.w-100.fs-10.fw-700 {
+  width: 82px !important;
+  height: 30px !important;}
 
 .card-body.pt-5px.p-0
 button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase, button.btn-yellow.br-5.w-95.h-27.fs-10.fw-700.br-dark.text-uppercase {
@@ -1415,7 +1426,7 @@ button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase, 
   }
 
   .bg-lightred.br-5.w-100.fs-10.fw-700 {
-    width: 100px !important;
+    width: 80px !important;
     height: 21px;
   }
 
@@ -2396,9 +2407,10 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
 
   #bluemain_popup {
     position: fixed;
-    top: 50% !important;
+    /* top: 50% !important; */
     right: 0 !important;
   }
+ 
 }
 
 @media (min-width: 1221px) and (max-width: 1400px) {
@@ -2474,6 +2486,27 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
     right: 0 !important;
   }
 
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content
+
+  button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn ,
+  button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
+width: 100px !important;
+height: 30px !important;
+  }
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content
+
+  .offcanvas-body .container.px-1.my-2.text-white.fs-12 {
+    padding: 0 27px !important;
+}
+div#redmain_popup .container.px-3.my-2.text-white.fs-12{
+  padding: 0 27px !important;
+}
+
+
+.offcanvas.offcanvas-bottom.table-popup-container.max-content
+.container.px-1.my-2.text-white.fs-12.mb-2.d-flex.justify-content-between.px-1.py-2.align-items-center.mobile-tab-none{
+  padding: 0 16px !important;
+}
   .lap_150px{
 margin-top: 150px !important;
   }
@@ -2506,8 +2539,11 @@ margin-top: 150px !important;
   }
 
   .offcanvas-body .container.px-1.my-2.text-white.fs-12 {
-    padding: 0 15px !important;
+    padding: 0 21px !important;
   }
+  .container.px-1.my-2.text-white.fs-12.mb-2.d-flex.justify-content-between.px-1.py-2.align-items-center.mobile-tab-none div span {
+    font-size: 15px !important;
+}
   /* end */
 }
 
@@ -2644,3 +2680,10 @@ button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase ,
       top: -112px !important;
   }
 } */
+
+
+div#redmain_popup
+.d-flex.justify-content-between.pb-1:nth-child(3)
+ {
+  border-top: 1px solid #ffffff9e;
+}
