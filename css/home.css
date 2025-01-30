@@ -1264,29 +1264,33 @@ span.text-purple.fs-11.fw-650 {
     display: none !important;
   }
 
-  .row.stake_btn_size .col-3  {
+  .row.stake_btn_size .col-3 {
     padding: 0 3px;
-}
+  }
 
-.row.stake_btn_size .col-3  button{
-height: 34px !important;
-}
-.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 {
-  padding: 12px 22px !important;
-} 
-.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30  .col-3.d-flex.justify-content-center{
-  padding: 0 !important;
-}
+  .row.stake_btn_size .col-3 button {
+    height: 34px !important;
+  }
+  .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 {
+    padding: 12px 22px !important;
+  }
+  .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30
+    .col-3.d-flex.justify-content-center {
+    padding: 0 !important;
+  }
 
-.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30  .col-3.d-flex.justify-content-center
-button.bg-blue.br-5.w-100.fs-10.fw-700 {
-  width: 82px !important;
-  height: 30px !important;}
+  .row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30
+    .col-3.d-flex.justify-content-center
+    button.bg-blue.br-5.w-100.fs-10.fw-700 {
+    width: 82px !important;
+    height: 30px !important;
+  }
 
-.card-body.pt-5px.p-0
-button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase, button.btn-yellow.br-5.w-95.h-27.fs-10.fw-700.br-dark.text-uppercase {
-  height: 33px !important;
-}
+  .card-body.pt-5px.p-0
+    button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase,
+  button.btn-yellow.br-5.w-95.h-27.fs-10.fw-700.br-dark.text-uppercase {
+    height: 33px !important;
+  }
   /* .lap-none-margin{
     display: none !important;
   } */
@@ -1459,13 +1463,14 @@ button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase, 
 
   .page-header.is-sticky {
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
-    padding: 0 45px !important;}
+    padding: 0 45px !important;
+  }
 
-    .home-header {
-      padding-left: 45px;
-      padding-right: 45px;
-      padding-top: 0 !important;
-    }
+  .home-header {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 0 !important;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -1854,12 +1859,11 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
   }
 }
 
-@media(min-width:500px){
+@media (min-width: 500px) {
   .topcard-img {
     position: absolute;
-    top: -13%  !important;
-}
-
+    top: -13% !important;
+  }
 }
 
 /* @media (max-width: 441px) {
@@ -1983,7 +1987,7 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
   button.btn.rounded-pill.border-white.bg-transparent.text-white.w-100.py-1.fs-14.fw-bolder {
     width: 150px !important;
     height: 45px;
-}
+  }
 
   .container.container-xs.position-relative.p-0.mt-5.col-lg-10.col-xxl-10.pt-sm-0.mt-0.mt-sm-0.pt-5.mobile-margin-0 {
     margin: 0 !important;
@@ -2276,10 +2280,8 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
   }
 }
 
-
 @media (min-width: 1000px) {
-
-  button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn{
+  button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
     display: none !important;
   }
   .topcard-img {
@@ -2410,7 +2412,6 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
     /* top: 50% !important; */
     right: 0 !important;
   }
- 
 }
 
 @media (min-width: 1221px) and (max-width: 1400px) {
@@ -2487,28 +2488,26 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
   }
 
   .offcanvas.offcanvas-bottom.table-popup-container.max-content
-
-  button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn ,
-  button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
-width: 100px !important;
-height: 30px !important;
+    button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn,
+  button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
+    width: 100px !important;
+    height: 30px !important;
   }
   .offcanvas.offcanvas-bottom.table-popup-container.max-content
-
-  .offcanvas-body .container.px-1.my-2.text-white.fs-12 {
+    .offcanvas-body
+    .container.px-1.my-2.text-white.fs-12 {
     padding: 0 27px !important;
-}
-div#redmain_popup .container.px-3.my-2.text-white.fs-12{
-  padding: 0 27px !important;
-}
+  }
+  div#redmain_popup .container.px-3.my-2.text-white.fs-12 {
+    padding: 0 27px !important;
+  }
 
-
-.offcanvas.offcanvas-bottom.table-popup-container.max-content
-.container.px-1.my-2.text-white.fs-12.mb-2.d-flex.justify-content-between.px-1.py-2.align-items-center.mobile-tab-none{
-  padding: 0 16px !important;
-}
-  .lap_150px{
-margin-top: 150px !important;
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content
+    .container.px-1.my-2.text-white.fs-12.mb-2.d-flex.justify-content-between.px-1.py-2.align-items-center.mobile-tab-none {
+    padding: 0 16px !important;
+  }
+  .lap_150px {
+    margin-top: 150px !important;
   }
 
   .offcanvas.offcanvas-bottom.table-popup-container.max-content.show {
@@ -2541,9 +2540,11 @@ margin-top: 150px !important;
   .offcanvas-body .container.px-1.my-2.text-white.fs-12 {
     padding: 0 21px !important;
   }
-  .container.px-1.my-2.text-white.fs-12.mb-2.d-flex.justify-content-between.px-1.py-2.align-items-center.mobile-tab-none div span {
+  .container.px-1.my-2.text-white.fs-12.mb-2.d-flex.justify-content-between.px-1.py-2.align-items-center.mobile-tab-none
+    div
+    span {
     font-size: 15px !important;
-}
+  }
   /* end */
 }
 
@@ -2577,7 +2578,6 @@ a.btn.btn-login.mb-1.login_btn {
   font-size: 19px !important;
 }
 
-
 button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
   width: 50px;
   height: 50px;
@@ -2591,18 +2591,16 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
   right: 10px;
 }
 
-
-@media(max-width:992px){
-  button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn{
+@media (max-width: 992px) {
+  button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
     /* display: none !important; */
     z-index: 111111;
   }
   .offcanvas.offcanvas-bottom.table-popup-container.max-content {
     /* border-radius: 0 !important; */
+  }
 }
-
-}
-.bet-tab_menu.nav-link.active{
+.bet-tab_menu.nav-link.active {
   color: yellow !important;
 }
 .accordion-button::after {
@@ -2615,58 +2613,54 @@ button.btn.btn-primary.bg-purple.text-white.br-yellow.betslipbtn {
   border-radius: 22px;
 }
 
-.d-flex.flex-wrap.justify-content-left.w-100.px-1.mb-2.br-none.g-10  img{
+.d-flex.flex-wrap.justify-content-left.w-100.px-1.mb-2.br-none.g-10 img {
   object-fit: contain !important;
 }
 
-.col-12.pt-10.px-3.my-2 button, button.bg-blue.br-5.w-100.fs-12.fw-700, button.bg-lightred.br-5.w-100.fs-12.fw-700 {
+.col-12.pt-10.px-3.my-2 button,
+button.bg-blue.br-5.w-100.fs-12.fw-700,
+button.bg-lightred.br-5.w-100.fs-12.fw-700 {
   margin: 4px 0;
   padding: 3px 0;
   height: 30px;
 }
 
-.h-30{
+.h-30 {
   height: 30px;
 }
 
 @media (max-width: 400px) {
   .topcard-img.matchsumary.lap-none {
-      top: -90px !important;
+    top: -90px !important;
   }
-
-  
 }
 
-
-
-button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase , button.btn-yellow.br-5.w-95.h-27.fs-10.fw-700.br-dark.text-uppercase{
-  height:30px;
+button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase,
+button.btn-yellow.br-5.w-95.h-27.fs-10.fw-700.br-dark.text-uppercase {
+  height: 30px;
 }
-
 
 @media (min-width: 1200px) {
   .topcard-img.youthteam.new_topinplay {
-      top: -80px !important;
+    top: -80px !important;
   }
 }
 
 @media (min-width: 1440px) {
   .topcard-img.youthteam.new_topinplay {
-      top: -88px !important;
+    top: -88px !important;
   }
 }
 
 @media (min-width: 1600px) {
   .topcard-img.youthteam.new_topinplay {
-      top: -115px !important;
+    top: -115px !important;
   }
 }
 
-
-
 @media (min-width: 1700px) {
   .topcard-img.youthteam.new_topinplay {
-      top: -90px !important;
+    top: -90px !important;
   }
 }
 /* @media (min-width: 1800px) {
@@ -2681,14 +2675,24 @@ button.btn-purple.text-yellow.br-5.w-95.h-27.fs-10.fw-700.mr-10.text-uppercase ,
   }
 } */
 
-
-div#redmain_popup
-.d-flex.justify-content-between.pb-1:nth-child(3)
- {
+div#redmain_popup .d-flex.justify-content-between.pb-1:nth-child(3) {
   border-top: 1px solid #ffffff9e;
 }
 
-
-.offcanvas.offcanvas-bottom.table-popup-container.max-content .offcanvas-body .container.px-1.my-2.text-white.fs-12 {
+.offcanvas.offcanvas-bottom.table-popup-container.max-content
+  .offcanvas-body
+  .container.px-1.my-2.text-white.fs-12 {
   padding: 0 27px !important;
+}
+
+@media (max-width: 320px) {
+  .topcard-img.youthteam {
+    top: -83px !important;
+  }
+}
+
+@media(min-width:800px) and (max-width:992px){
+  .topcard-img.youthteam div div.w-85 {
+    width: 48% !important;
+}
 }
