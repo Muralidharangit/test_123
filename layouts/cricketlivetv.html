@@ -76,6 +76,29 @@
       width: 65%;
     }
   </style>
+  <style>
+         .sidebar {
+            width: 300px;
+            height: 200px;
+            background-color: lightblue;
+            padding: 20px;
+            position: sticky;
+            top: 10px; /* Adjust the top spacing */
+        }
+
+        .live-logon {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+  </style>
+<style>
+.live-logon {
+  
+  transition: all 0.3s ease-in-out; /* Transition for smooth effect */
+}
+</style>
+
 </head>
 
 <body>
@@ -568,7 +591,7 @@
       <!-- end -->
 
       <div class="live-logon d-flex justify-content-center align-items-center w-100 mb-2 yellow-br sticky-top lap-none"
-        style="height: 219px; background-color: #170026">
+        style="height: 219px; background-color: #170026" id="top-sticky" >
         <img src="../img/sikandar_3.0.png" alt="" srcset="" class="w-65" />
       </div>
 
@@ -879,16 +902,13 @@
                   </div>
 
                 </div>
-
-
-
               </div>
               <div class="mobile-tab-none mb-2">
                 <img class="w-100" src="../img/Laptop/Rectangle 161.png" />
               </div>
               <div
                 class="live-logon d-flex justify-content-center align-items-center w-100 mb-2 yellow-br mobile-tab-none"
-                style="height: 300px; background-color: #170026;border-radius: 10px;">
+                style="height: 300px; background-color: #170026;border-radius: 10px;" id="top-sticky fixed">
                 <img src="../img/sikandar_3.0.png" alt="" srcset="" class="w-65 w-xl-25 " />
               </div>
 
@@ -9544,6 +9564,34 @@
       });
     }
   </script>
+
+<script>
+  // Get the element
+  var stickyDiv = document.getElementById("top-sticky");
+
+  // Get the initial position of the div (its offset from the top)
+  var stickyOffset = stickyDiv.offsetTop;
+
+  // Listen to the scroll event
+  window.onscroll = function() {
+      if (window.pageYOffset >= stickyOffset) {
+          // When you scroll past the div, make it fixed at top
+          stickyDiv.style.position = "fixed";
+          stickyDiv.style.top = "75px";
+          stickyDiv.style.left = "0";
+          stickyDiv.style.width = "100%";  // To make it span full width
+          stickyDiv.style.zIndex = "1000"; // Ensure it's above other elements
+             // Optional transition effect on opacity and top for smoother appearance
+             stickyDiv.style.opacity = "1";
+                stickyDiv.style.transition = "all 0.3s ease-in-out";
+      } else {
+          // When scroll goes above, reset it to normal
+          stickyDiv.style.position = "relative";
+          stickyDiv.style.top = "auto";
+          stickyDiv.style.opacity = "0.9"; // Slightly transparent when not fixed
+      }
+  };
+</script>
   <!-- table end -->
 </body>
 
