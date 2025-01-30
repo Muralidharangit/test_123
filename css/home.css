@@ -2685,14 +2685,14 @@ div#redmain_popup .d-flex.justify-content-between.pb-1:nth-child(3) {
   padding: 0 27px !important;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .topcard-img.youthteam {
     top: -83px !important;
   }
 }
 
-@media(min-width:800px) and (max-width:992px){
+@media (min-width: 800px) and (max-width: 992px) {
   .topcard-img.youthteam div div.w-85 {
     width: 48% !important;
-}
+  }
 }
